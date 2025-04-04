@@ -10,23 +10,30 @@
         <link rel="icon"  type="image/png" href="assets/images/favicon.png">		
         @include('layouts.commonStyle')
 		<!-- modernizr js -->	
-        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>		
-		
-    </head>
+       </head>
 <body>
-    <header>
-        <h1>Bienvenido a OrthoBay</h1>
-        {{-- Aquí podrías incluir tu menú de navegación --}}
-    </header>
-
-    <main>
+    <div>
+        @include('layouts.navbar')
         @yield('content')
-    </main>
 
-    <footer>
-        <p>&copy; {{ date('Y') }} Clínica Ortopédica. Todos los derechos reservados.</p>
-    </footer>
+        @switch(app()->getLocale())
+        @case('es')
+            @include('es.footer')
+        @break
 
-    <script src="{{ asset('js/app.js') }}"></script>
+        @case('en')
+            @include('en.footer')
+        @break
+    @endswitch
+
+    </div>
+    
+       
+    @include('layouts.commonJS')
+    
+
+   
+
+    
 </body>
 </html>
