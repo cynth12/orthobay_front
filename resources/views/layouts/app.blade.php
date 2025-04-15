@@ -3,12 +3,12 @@
     <head>
 		<meta charset="UTF-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>@yield (Smartdev - Medical Responsive Website Template)</title>
+		<title>Smartdev Medical Responsive Website Template</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Favicon Icon -->
         <link rel="icon"  type="image/png" href="assets/images/favicon.png">		
-        @include('layouts.commonStyle')
+        @include('layouts.commonCSS')
 		<!-- modernizr js -->	
        </head>
 <body>
