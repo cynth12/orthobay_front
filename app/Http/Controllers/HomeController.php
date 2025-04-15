@@ -8,9 +8,10 @@ class HomeController extends Controller
 {
     public function index(Request $request)
     {
-        $idioma = $request->segment(1); // 'es' o 'en'
+        $lang = $request->segment(1);
+        $view = $lang === 'es' ? 'es.inicio.index' : 'en.home.index';
 
-        $viewName = $idioma === 'es' ? 'es.home' : 'en.home';
-        return view($viewName);
+        return view($view);
     }
 }
+
