@@ -41,10 +41,10 @@
                                         <div class="col-md-3 col-sm-3 col-xs-4">
                                             <div class="logo">
                                                 <a class="main_sticky_main_l" href="index.html" title="smartdev">
-                                                    <img src="{{ asset('assets/images/logo.png') }}" alt="smartdev">
+                                                    <img src="{{ asset('assets/images/logo_ortobay_1.png') }}" alt="smartdev">
                                                 </a>
                                                 <a class="main_sticky_l" href="index.html" title="smartdev">
-                                                    <img src="{{ asset('assets/images/logo.png') }}" alt="smartdev">
+                                                    <img src="{{ asset('assets/images/logo_ortobay_1.png') }}" alt="smartdev">
                                                 </a>
                                             </div>
                                         </div>
@@ -58,6 +58,8 @@
                                                     <li class="menu-item-has-children"><a href="index.html#">Hombro</a></li>
                                                     <li class="menu-item-has-children"><a href="index.html#">Espalda</a></li>
                                                     <li class="menu-item-has-children"><a href="index.html#">Nosotros</a></li>
+                                                    <li class="menu-item-has-children"><a href="{{ url('/en') }}">Ingles</a></li>
+                                                    
                                             @else
                                                     <li class="menu-item-has-children"><a href="{{ url('/en/#home') }}">Home</a></li>
                                                     <li class="menu-item-has-children"><a href="index.html#">Knee</a></li>
@@ -65,12 +67,13 @@
                                                     <li class="menu-item-has-children"><a href="index.html#">Shoulder</a></li>
                                                     <li class="menu-item-has-children"><a href="index.html#">Back</a></li>  
                                                     <li class="menu-item-has-children"><a href="index.html#">About</a></li>  
-                                            @endif      
+                                                    <li class="menu-item-has-children"><a href="{{ url('/en') }}">Spanish</a></li> 
+                                                    
+                                            @endif     
                                                 </ul>
                                                 <div class="donate-btn-header">
-                                                    <a class="dtbtn" href="{{ url('/en') }}">Ingles<i class="bi bi-arrow-right"></i></a>
-                                                    <a class="dtbtn" href="{{ url('/es') }}">Español<i class="bi bi-arrow-right"></i></a>
-                                                    <a class="dtbtn" href="index.html#">Agendar consulta</a>
+													<a class="dtbtn" href="index.html#">Agendar cita</a>	
+												
                                                 </div>
                                             </nav>
                                         </div>
