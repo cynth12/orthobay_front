@@ -67,14 +67,10 @@
                                                     <li class="menu-item-has-children"><a href="index.html#">Shoulder</a></li>
                                                     <li class="menu-item-has-children"><a href="index.html#">Back</a></li>  
                                                     <li class="menu-item-has-children"><a href="index.html#">About</a></li>  
-                                                    <li class="menu-item-has-children"><a href="{{ url('/en') }}">Spanish</a></li> 
+                                                    <li class="menu-item-has-children"><a href="{{ url('/es') }}">Spanish</a></li> 
                                                     
                                             @endif     
                                                 </ul>
-                                                <div class="donate-btn-header">
-													<a class="dtbtn" href="index.html#">Agendar cita</a>	
-												
-                                                </div>
                                             </nav>
                                         </div>
                                     </div>
@@ -86,6 +82,51 @@
             </div>
         </div>
     </div>
+</div>
+
+
+<!-- MOBILE MENU Logo AREA -->
+<div class="mobile_logo_area hidden-md hidden-lg">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="mobile_menu_logo text-center">
+					<a href="index.html" title="smartdev">
+						<img src="{{ asset('assets/images/logo_ortobay_1.png') }}" alt="smartdev">
+					</a>		
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- MOBILE MENU AREA -->
+<div class="home-2 mbm hidden-md hidden-lg  header_area main-menu-area">
+	<div class="menu_area mobile-menu">
+		<nav class="smartdev_menu">						
+			<ul class="sub-menu">
+            @if (app()->getLocale() == 'es')
+            <li class="menu-item-has-children"><a href="{{ url('/es/#inicio') }}">Inicio</a></li>
+            <li class="menu-item-has-children"><a href="index.html#">Rodilla</a></li>
+            <li class="menu-item-has-children"><a href="index.html#">Cadera</a></li>
+            <li class="menu-item-has-children"><a href="index.html#">Hombro</a></li>
+            <li class="menu-item-has-children"><a href="index.html#">Espalda</a></li>
+            <li class="menu-item-has-children"><a href="index.html#">Nosotros</a></li>
+            <li class="menu-item-has-children"><a href="{{ url('/en') }}">Ingles</a></li>
+            
+    @else
+            <li class="menu-item-has-children"><a href="{{ url('/en/#home') }}">Home</a></li>
+            <li class="menu-item-has-children"><a href="index.html#">Knee</a></li>
+            <li class="menu-item-has-children"><a href="index.html#">Hip</a></li>
+            <li class="menu-item-has-children"><a href="index.html#">Shoulder</a></li>
+            <li class="menu-item-has-children"><a href="index.html#">Back</a></li>  
+            <li class="menu-item-has-children"><a href="index.html#">About</a></li>  
+            <li class="menu-item-has-children"><a href="{{ url('/en') }}">Spanish</a></li> 
+            
+    @endif     
+			</ul>
+		</nav>	
+	</div>					
 </div>
 
 
