@@ -103,6 +103,9 @@
 <!-- MOBILE MENU AREA -->
 <div class="home-2 mbm hidden-md hidden-lg  header_area main-menu-area">
 	<div class="menu_area mobile-menu">
+        <button id="menu-toggle" class="menu-toggle-btn">
+            ☰
+          </button>
 		<nav class="smartdev_menu">						
 			<ul class="sub-menu">
             @if (app()->getLocale() == 'es')

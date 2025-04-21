@@ -11,6 +11,17 @@
         @include('layouts.commonCSS')
 		<!-- modernizr js -->	
        </head>
+       <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const toggleBtn = document.getElementById("menu-toggle");
+          const menu = document.querySelector(".mobile-menu .smartdev_menu");
+      
+          toggleBtn.addEventListener("click", function () {
+            menu.classList.toggle("active");
+          });
+        });
+      </script>
+      
 <body>
     <div>
         @include('layouts.commonCSS')
