@@ -12,7 +12,7 @@ class SetLocale
         // Detectamos el idioma desde la URL: /es, /en
         $locale = $request->segment(1);
 
-        if (in_array($locale, ['es', 'en'])) {
+        if (in_array($locale, ['en', 'es'])) {
             app()->setLocale($locale);
         }
 

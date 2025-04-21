@@ -4,12 +4,12 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
 
-//Route::get('/', function () {
-    ////return view('test');
-//});
+Route::get('/', function () {
+    return redirect('/en');
+});
 
-//Route::get('/{lang}/home', [HomeController::class, 'index'])
-   // ->where('lang', 'es|en');
+
+
 
 
 

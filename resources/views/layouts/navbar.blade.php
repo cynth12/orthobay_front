@@ -58,7 +58,7 @@
                                                     <li class="menu-item-has-children"><a href="index.html#">Hombro</a></li>
                                                     <li class="menu-item-has-children"><a href="index.html#">Espalda</a></li>
                                                     <li class="menu-item-has-children"><a href="index.html#">Nosotros</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/en') }}">Ingles</a></li>
+                                                    <li class="menu-item-has-children"><a href="{{ url('/en') }}"> English</a></li>
                                                     
                                             @else
                                                     <li class="menu-item-has-children"><a href="{{ url('/en/#home') }}">Home</a></li>
