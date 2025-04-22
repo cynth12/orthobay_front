@@ -4,11 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
 
-Route::get('/test', function () {
-    return 'La web sí responde 🧡';
-});
-
-
 
 
 Route::get('/', function () {
