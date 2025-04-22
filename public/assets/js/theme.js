@@ -1021,3 +1021,13 @@
 
 
 
+$(document).ready(function(){
+    $('.scroll_fixed').scrollToFixed({
+        preFixed: function() {
+            $(this).addClass('prefix');
+        },
+        postFixed: function() {
+            $(this).addClass('postfix').removeClass('prefix');
+        }
+    });
+});

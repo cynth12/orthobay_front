@@ -28,23 +28,25 @@
         </div>
     </div>
     <!-- END HEADER TOP AREA -->
+
+
     <div class="tx_top2_relative">
         <div class="">
             <div class="tx_relative_m">
                 <div class="">
-                    <div class="mainmenu_width_tx  ">
-                        <div class="smartdev-main-menu one_page hidden-xs hidden-sm witr_h_h10">
-                            <div class="smartdev_nav_area scroll_fixed postfix">
+                    <div class="mainmenu_width_tx">
+						<div class="smartdev-main-menu one_page hidden-xs hidden-sm witr_h_h10">
+							<div class="smartdev_nav_area scroll_fixed">
                                 <div class="container">
                                     <div class="row logo-left">
                                         <!-- LOGO -->
                                         <div class="col-md-3 col-sm-3 col-xs-4">
                                             <div class="logo">
                                                 <a class="main_sticky_main_l" href="index.html" title="smartdev">
-                                                    <img src="{{ asset('assets/images/logo_ortobay_1.png') }}" alt="smartdev">
+                                                    <img src="{{ asset('assets/images/logo_1.png') }}" alt="smartdev">
                                                 </a>
                                                 <a class="main_sticky_l" href="index.html" title="smartdev">
-                                                    <img src="{{ asset('assets/images/logo_ortobay_1.png') }}" alt="smartdev">
+                                                    <img src="{{ asset('assets/images/logo_blanco.png') }}" alt="smartdev">
                                                 </a>
                                             </div>
                                         </div>
@@ -131,5 +133,3 @@
 		</nav>	
 	</div>					
 </div>
-
-
