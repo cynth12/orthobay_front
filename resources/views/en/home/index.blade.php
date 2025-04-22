@@ -11,7 +11,7 @@
 <div class="witr_swiper_area">
 	<div class="swiper-container witr_active_id5 ">
 		<div class="swiper-wrapper">
-			<div class="swiper-slide  witr_swiper_height " style="background-image: url(assets/images/slider-3.jpg);">
+			<div class="swiper-slide  witr_swiper_height " style="background-image: url('{{ asset('assets/images/slider-3.jpg') }}');"
 				<div class="witr_sw_text_area text-left">
 					<div class="witr_swiper_content ">
 						<h1>Welcome To Family Doctor! </h1>
@@ -28,7 +28,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="swiper-slide witr_swiper_height " style="background-image: url(assets/images/slider-1.jpg);">
+			<div class="swiper-slide witr_swiper_height " style="background-image: url('{{ asset('assets/images/slider-1.jpg') }}');"
 				<div class="witr_sw_text_area text-left">
 					<div class="witr_swiper_content ">
 						<h1>Welcome To Family Doctor! </h1>
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="swiper-slide  witr_swiper_height" style="background-image: url(assets/images/slider-3.jpg);">
+			<div class="swiper-slide  witr_swiper_height" style="background-image: url('{{ asset('assets/images/slider-3.jpg') }}');">
 				<div class="witr_sw_text_area text-left">
 					<div class="witr_swiper_content ">
 						<h1>Welcome To Family Doctor! </h1>
@@ -62,7 +62,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="swiper-slide witr_swiper_height" style="background-image: url(assets/images/slider-2.jpg); ">
+			<div class="swiper-slide witr_swiper_height" style="background-image: url('{{ asset('assets/images/slider-2.jpg') }}');">
 				<div class="witr_sw_text_area text-left">
 					<div class="witr_swiper_content ">
 						<h1>Welcome To Family Doctor! </h1>
@@ -79,7 +79,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="swiper-slide witr_swiper_height " style="background-image: url(assets/images/slider-1.jpg);">
+			<div class="swiper-slide witr_swiper_height " style="background-image: url('{{ asset('assets/images/slider-2.jpg') }}');">
 				<div class="witr_sw_text_area text-left">
 					<div class="witr_swiper_content ">
 						<h1>Welcome To Family Doctor! </h1>
