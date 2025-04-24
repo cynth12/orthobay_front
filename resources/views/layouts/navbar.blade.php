@@ -61,6 +61,9 @@
                                                     <li class="menu-item-has-children"><a href="index.html#">Espalda</a></li>
                                                     <li class="menu-item-has-children"><a href="index.html#">Nosotros</a></li>
                                                     <li class="menu-item-has-children"><a href="{{ url('/en') }}"> English</a></li>
+                                                    <div class="donate-btn-header">
+                                                        <a class="dtbtn" href="index-2.html#">Programar cita</a>	
+                                                    </div>
                                                     
                                             @else
                                                     <li class="menu-item-has-children"><a href="{{ url('/en/#home') }}">Home</a></li>
@@ -70,6 +73,9 @@
                                                     <li class="menu-item-has-children"><a href="index.html#">Back</a></li>  
                                                     <li class="menu-item-has-children"><a href="index.html#">About</a></li>  
                                                     <li class="menu-item-has-children"><a href="{{ url('/es') }}">Spanish</a></li> 
+                                                    <div class="donate-btn-header">
+                                                        <a class="dtbtn" href="index-2.html#">Make Appointment</a>	
+                                                    </div>
                                                     
                                             @endif     
                                                 </ul>

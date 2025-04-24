@@ -1200,7 +1200,7 @@ select:-webkit-autofill:active{
 /* has menu icon */
  .smartdev-main-menu .menu-item-has-children > a:after {
      margin-left: 5px;
-     content: "\f107";
+     /*content: "\f107";*/
      font-family: FontAwesome !important;
      opacity: 1;
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -5071,8 +5071,8 @@ select:-webkit-autofill:active{
 /*======================== END EM40 SCROLL TOP CSS =========================*/
 /* button hover style */
  .feature_btn a, .witr_ser_btnb a, .service-btn > a, a.dtbtn, .witr_btn, .witr_bbtn, .witr_gbtn, .witr_gbbtn, .smartdev_button a, .witr_sbtn_s8 a{
-     border-radius:5px;
-     font-size:17px;
+     /*border-radius:0px;*/
+     font-size:15px;
      font-weight:400;
      display: inline-block;
 }
