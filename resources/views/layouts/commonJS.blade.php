@@ -13,7 +13,7 @@
 <script src="{{ asset('assets/js/jquery.appear.js') }}"></script>
 <script src="{{ asset('assets/js/jquery.knob.js') }}"></script>
 <script src="{{ asset('assets/js/BeerSlider.js') }}"></script>
-<script src="{{ asset('assets/js/theme-plugins.js') }}"></script>
+<script src="{{ asset('assets/js/vendor/theme-plugins.js') }}"></script>
 <script src="{{ asset('assets/js/jquery.meanmenu.js') }}"></script>
 <script src="{{ asset('assets/js/ajax-mail.js') }}"></script>
 
@@ -22,8 +22,8 @@
 
 <!-- Tu JS personalizado -->
 <script src="{{ asset('assets/js/vendor/wow.min.js') }}"></script>
-<script src="{{ asset('assets/js/theme.js') }}"></script>
-<script src="{{ asset('assets/js/app.js') }}"></script>
+<script src="{{ asset('assets/js/vendor/theme.js') }}"></script>
+<script src="{{ asset('assets/js/vendor/app.js') }}"></script>
 
 
 
