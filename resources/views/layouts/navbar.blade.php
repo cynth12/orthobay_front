@@ -43,7 +43,7 @@
                                         <div class="col-md-3 col-sm-3 col-xs-4">
                                             <div class="logo">
                                                 <a class="main_sticky_main_l" href="index.html" title="smartdev">
-                                                    <img src="{{ asset('assets/images/logo_1.png') }}" alt="smartdev">
+                                                    <img src="{{ asset('assets/images/logo_1_orto.png') }}" alt="smartdev">
                                                 </a>
                                                 <a class="main_sticky_l" href="index.html" title="smartdev">
                                                     <img src="{{ asset('assets/images/logo_2.png') }}" alt="smartdev">

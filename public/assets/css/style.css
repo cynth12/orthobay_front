@@ -5103,4 +5103,45 @@ select:-webkit-autofill:active{
 
 
 
+footer.witrfm_area {
+    width: 100%;
+    clear: both;
+    position: relative;
+    display: block;
+    background-color: #1a1a1a; /* opcional si quieres un color de fondo uniforme */
+    color: white;
+    padding-top: 40px;
+  }
+  .footer-bottom {
+    margin-top: 40px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 20px;
+  }
+  .footer-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    list-style: none;
+    padding-left: 0;
+  }
+  .footer-menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  .footer-menu ul li a:hover {
+    color: white;
+  }
+
+  .footer-middle .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-middle .col-lg-3,
+  .footer-middle .col-md-6,
+  .footer-middle .col-sm-12 {
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 15px;
+  }
   
