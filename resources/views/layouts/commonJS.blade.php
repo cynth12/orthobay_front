@@ -25,6 +25,15 @@
 <!-- Tu JS personalizado -->
 <script src="{{ asset('assets/js/theme.js') }}"></script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        new VenoBox({
+            selector: '.venobox',
+            autoplay: true
+        });
+    });
+</script>
+
 
 
 
