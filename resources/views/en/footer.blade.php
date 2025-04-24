@@ -1,6 +1,6 @@
 <!-- witrfm_footer_area -->
 
-<footer class="witrfm_area">
+<div class="witrfm_area">
 	<div class="footer-middle">  
 		<div class="container">
 			<div class="row">
@@ -121,4 +121,4 @@
 			</div>
 		</div>
 	</div>
-</footer>
+</div>

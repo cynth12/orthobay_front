@@ -37,3 +37,21 @@
     });
 </script>
 
+
+
+<body>
+
+	<div class="wrapper">
+		@include('layouts.navbar')
+		@yield('content')
+	</div>
+
+	@switch(app()->getLocale())
+		@case('es')
+			@include('es.footer')
+			@break
+		@case('en')
+			@include('en.footer')
+			@break
+	@endswitch
+
