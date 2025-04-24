@@ -109,7 +109,7 @@
 </div>
 
 <!-- MOBILE MENU AREA -->
-<div class="home-2 mbm hidden-md hidden-lg  header_area main-menu-area">
+<div class="home-2 mbm d-block d-lg-none header_area main-menu-area">
 	<div class="menu_area mobile-menu">
 		<nav class="smartdev_menu">						
 			<ul class="sub-menu">

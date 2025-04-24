@@ -5100,6 +5100,15 @@ select:-webkit-autofill:active{
  .tx_relative_m,.tx_top2_relative{
      position:relative;
 }
+@media (max-width: 991px) {
+    .mobile-menu {
+      display: block !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      height: auto !important;
+    }
+  }
+
 
 
 
