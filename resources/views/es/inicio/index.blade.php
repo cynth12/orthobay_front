@@ -13,31 +13,32 @@
 			<div class="swiper-slide witr_swiper_height" style="background-image: url(assets/images/slider-2.jpg); ">
 				<div class="witr_sw_text_area text-left">
 					<div class="witr_swiper_content ">
-						<h1>Welcome To Family Doctor! </h1>
-						<h2>Best Health Care For Family Doctor.</h2>
-						<p>We will help you to feel better and enjoy every single day of your life.may be the fastest growing health.</p>
+						<h1>Bienvenidos a Orthobay! </h1>
+						<h2> Cirugía Ortopédica en Puerto Vallarta, México</h2>
+						<p>Nos enorgullece dar la bienvenida a pacientes de todo el mundo para experimentar 
+							atención ortopédica de clase mundial con el Dr. Daniel Ponce en Puerto Vallarta</p>
 						<!-- btn gradient style -->
 						<div class="slider_btn">
 							<div class="witr_btn_style">
 								<div class="witr_btn_sinner">
-									<a class="witr_btn" href="index-2.html#">Make Appointment</a>
+									<a class="witr_btn" href="index-2.html#">Agenda tu cita</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="swiper-slide witr_swiper_height " style="background-image: url(assets/images/slider-1.jpg);">
+			<div class="swiper-slide witr_swiper_height " style="background-image: url(assets/images/daniel_ponce_1.png);">
 				<div class="witr_sw_text_area text-left">
 					<div class="witr_swiper_content ">
-						<h1>Welcome To Family Doctor! </h1>
-						<h2>Best Health Care For Family Doctor.</h2>
-						<p>We will help you to feel better and enjoy every single day of your life.may be the fastest growing health.</p>
+						<h1>Calidad en Atención Ortopédica</h1>
+						<h2>Turismo Médico</h2>
+						<p>La Mejor Atención Médica para Toda la Familia. Dr. Daniel Ponce Covarrubias</p>
 						<!-- btn gradient style -->
 						<div class="slider_btn">
 							<div class="witr_btn_style">
 								<div class="witr_btn_sinner">
-									<a class="witr_btn" href="index-2.html#">Make Appointment</a>
+									<a class="witr_btn" href="index-2.html#">Agenda tu cita</a>
 								</div>
 							</div>
 						</div>
