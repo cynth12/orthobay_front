@@ -13,14 +13,10 @@
 
 <body>
 
-
-	<div>
+	<div class="wrapper">
 		@include('layouts.navbar')
-
+		@yield('content')
 	</div>
-
-
-	@yield('content')
 
 	@switch(app()->getLocale())
 		@case('es')
@@ -30,6 +26,7 @@
 			@include('en.footer')
 			@break
 	@endswitch
+
 
 	
 	@include('layouts.commonJS')
@@ -63,3 +60,6 @@
 	
 </body>
 </html>
+
+
+
