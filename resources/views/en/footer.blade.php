@@ -8,7 +8,8 @@
 					<div class="widget widget_smartdev_description_widget">				
 						<div class="smartdev-description-area">
 							<a href="index.html#"><img src="{{ asset('assets/images/logo_2.png') }}" alt=""></a>
-							 <p>Nemo enim ipsam voluptate quia  voluptas sit aspernatur aut odit aut fugit, sed quia magni this dolores eos qui ratione .</p>
+							 <p>Orthobay Vallarta provides specialized orthopedic and trauma surgery services 
+								in Puerto Vallarta. High-quality care for local and international patients.</p>
 							 <div class="social-icons">
 								<a href="index.html#"><i class="fab fa-facebook-f"></i></a>
 								<a href="index.html#" ><i class="fab fa-instagram"></i></a>
@@ -43,7 +44,7 @@
 											<i class="fa fa-map-marker"></i>
 										</div>									
 										<div class="footer-sociala-info">				
-											<p>Adress: 21 Division St, Rangpur,  RS 101215, RMS</p>
+											<p>Adress: Puerto Vllarta Mexico.</p>
 										</div> 
 									</div> 
 									<div class="footer_s_inner"> 
@@ -59,7 +60,7 @@
 											<i class="fas fa-envelope"></i>
 										</div> 
 										<div class="footer-sociala-info">  
-											<p>Email: example@example.com  Website: yourwebsite.com</p>
+											<p>Email: danielponce@orthobay.com</p>
 										</div>
 									</div>
 								</div>
@@ -104,7 +105,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6  col-sm-12">
 					<div class="copy-right-text">
-						<p>Copyright &copy; smartdev all rights reserved.</p>
+						<p>Copyright &copy; orthobay all rights reserved.</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6  col-sm-12">				

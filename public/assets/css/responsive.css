@@ -2217,3 +2217,38 @@
     }
   }
  
+
+
+
+  /*version mobil*/
+
+  @media (max-width: 768px) {
+    .swiper-slide.witr_swiper_height[style*="daniel_ponce.png"] {
+      display: flex !important;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+      background-repeat: no-repeat !important;
+      background-position: bottom center !important;
+      padding-bottom: 350px;
+      position: relative;
+    }
+  
+    .swiper-slide.witr_swiper_height[style*="daniel_ponce.png"] .witr_sw_text_area {
+      width: 100%;
+      padding: 20px;
+      z-index: 2;
+    }
+  
+    .swiper-slide.witr_swiper_height[style*="daniel_ponce.png"] .witr_swiper_content {
+      background: #ffffffdd;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+  }
+  
+
+  
+

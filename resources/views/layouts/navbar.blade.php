@@ -9,7 +9,6 @@
                         <p>
                             <span><i class="fas fa-home"></i>Puerto Vallarta, Jalisco</span>
                             <a href="index.html#"><i class="fas fa-envelope"></i>info@orthobay.com</a>
-                            <a href="index.html#"><i class="icofont-clock-time"></i>Mon - Fri: 9.00am - 11.00pm</a>
                         </p>
                     </div>
                 </div>

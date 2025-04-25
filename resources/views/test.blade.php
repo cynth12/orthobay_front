@@ -74,3 +74,22 @@
             return $next($request);
         }
     }
+
+
+    <div class="swiper-slide hero-slide" style="background-image: url('{{ asset('assets/images/slider-2.jpg') }}');">
+        <div class="hero-overlay">
+          <h1>Bienvenidos a Orthobay!</h1>
+          <h2>Cirugía Ortopédica en Puerto Vallarta, México</h2>
+          <p>Nos enorgullece dar la bienvenida a pacientes de todo el mundo para experimentar atención ortopédica de clase mundial con el Dr. Daniel Ponce en Puerto Vallarta</p>
+          <a class="cta-button" href="#agenda">Agenda tu cita</a>
+        </div>
+      </div>
+      
+      <div class="swiper-slide hero-slide" style="background-image: url('{{ asset('assets/images/daniel_ponce.png') }}'); background-color: #dff3f2; background-repeat: no-repeat; background-size: contain; background-position: bottom right;">
+        <div class="hero-overlay">
+          <h1>Calidad en Atención Ortopédica</h1>
+          <h2>Turismo Médico</h2>
+          <p>La Mejor Atención Médica para Toda la Familia. Dr. Daniel Ponce Covarrubias</p>
+          <a class="cta-button" href="#agenda">Agenda tu cita</a>
+        </div>
+      </div>

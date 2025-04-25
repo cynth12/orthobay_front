@@ -7,7 +7,8 @@
 					<div class="widget widget_smartdev_description_widget">				
 						<div class="smartdev-description-area">
 							<a href="index.html#"><img src="{{ asset('assets/images/logo_2.png') }}" alt=""></a>
-							 <p>Nemo enim ipsam voluptate quia  voluptas sit aspernatur aut odit aut fugit, sed quia magni this dolores eos qui ratione .</p>
+							 <p>Orthobay Vallarta ofrece servicios médicos especializados en ortopedia y traumatología en Puerto Vallarta. 
+								Atención de calidad para pacientes locales e internacionales.</p>
 							 <div class="social-icons">
 								<a href="index.html#"><i class="fab fa-facebook-f"></i></a>
 								<a href="index.html#" ><i class="fab fa-instagram"></i></a>
