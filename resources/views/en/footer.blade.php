@@ -7,13 +7,11 @@
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="widget widget_smartdev_description_widget">				
 						<div class="smartdev-description-area">
-							<a href="index.html#"><img src="assets/images/logo2.png" alt=""></a>
+							<a href="index.html#"><img src="{{ asset('assets/images/logo_2.png') }}" alt=""></a>
 							 <p>Nemo enim ipsam voluptate quia  voluptas sit aspernatur aut odit aut fugit, sed quia magni this dolores eos qui ratione .</p>
 							 <div class="social-icons">
-								<a href="index.html#"><i class="fa fa-facebook-f"></i></a>
-								<a href="index.html#"><i class="fab fa-google-plus-g"></i></a>
-								<a href="index.html#"><i class="fab fa-twitter"></i></a>
-								<a href="index.html#" ><i class="fas fa-rss"></i></a>
+								<a href="index.html#"><i class="fab fa-facebook-f"></i></a>
+								<a href="index.html#" ><i class="fab fa-instagram"></i></a>
 								<a href="index.html#"><i class="fab fa-linkedin"></i></a>
 							</div>
 						</div>

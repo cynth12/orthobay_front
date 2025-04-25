@@ -28,7 +28,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="swiper-slide witr_swiper_height " style="background-image: url(assets/images/daniel_ponce_1.png);">
+			<div class="swiper-slide witr_swiper_height " 
+			style="background-image: url('assets/images/daniel_ponce.png'); background-size: 
+			contain; background-repeat: no-repeat; background-position: right center; 
+			background-color: #dff3f2;">>
 				<div class="witr_sw_text_area text-left">
 					<div class="witr_swiper_content ">
 						<h1>Calidad en Atención Ortopédica</h1>
@@ -141,7 +144,11 @@
 						<div class="witr_section_title_inner text-left">
 							<h2>Conoce al doctor</h2>		
 							<h3>Daniel Ponce Covarrubias</h3>		
-							<p>It is issued free of charge in medical offices or at home with  time purchase of services in the amount of more than $40 per person. ices in an elevated ambience, completed by service and report efficiency. Our Pathology division offers a comprehensive range of laboratory tests for diagnosis, management. </p>		
+							<p>Nacido en Guadalajara, Jalisco el Dr. Daniel Ponce utiliza 
+								su combinación única de culturas y experiencias para tratar 
+								a pacientes de todo el mundo. Completó su formación 
+								en cirugía ortopédica en Guadalajara, México, y amplió 
+								su experiencia a través de entrenamiento especializado </p>		
 						</div>
 					</div>
 					<div class="em-service2 sleft all_color_service">
@@ -159,7 +166,9 @@
 											<h3>Tu Experto de Confianza en Cirugía Ortopédica</h3>
 										</div>						
 										<div class="em-service-desc">
-											<p>Some of the conditions overlap with those neurologists, and others are unique to this seen younger population. </p>		
+											<p>Su formación enriquece su enfoque en la atención al paciente. 
+												Sus esfuerzos han sido reconocido por su invaluable asistencia 
+												a viajeros y nacionales.</p>		
 										</div>
 									</div>
 								</div>
@@ -236,7 +245,7 @@
 							<li class="nav-item">
 								<a class="nav-link epo-4931cc5 active" data-toggle="tab" href="index-2.html#tx_tab_01">
 									<span class="witr_tab_icona">
-										<i class="icofont-brain-alt"></i>
+										<i class="icofont-bone"></i>
 									</span>
 									<strong>Cirugia de Rodilla</strong>
 								</a>
@@ -244,7 +253,7 @@
 							<li class="nav-item">
 								<a class="nav-link epo-1b77303" data-toggle="tab" href="index-2.html#tx_tab_02">
 									<span class="witr_tab_icona">
-										<i class="icofont-ambulance-crescent"></i>
+										<i class="icofont-user-alt-3"></i>
 									</span>
 									<strong>Cirugia de hombro</strong>
 								</a>
@@ -252,7 +261,7 @@
 							<li class="nav-item">
 								<a class="nav-link epo-7b0660d" data-toggle="tab" href="index-2.html#tx_tab_03">
 									<span class="witr_tab_icona">
-										<i class="icofont-heart-beat"></i>
+										<i class="icofont-bone"></i>
 									</span>
 									<strong>Cirugia de cadera</strong>
 								</a>
@@ -260,7 +269,7 @@
 							<li class="nav-item">
 								<a class="nav-link epo-76ded62" data-toggle="tab" href="index-2.html#tx_tab_04">
 									<span class="witr_tab_icona">
-										<i class="icofont-blood"></i>
+										<i class="icofont-disabled"></i>
 									</span>
 									<strong>Cirugia de espalda</strong>
 								</a>
@@ -276,8 +285,21 @@
 										<div class="witr_tab_right">
 											<div class="witr_section_title">
 												<div class="witr_section_title_inner text-left">
-													<h2>Emergency ambulance</h2>	
-													<p>It is issued free of charge in medical offices or at home with  time purchase of services in the amount of more than $40 per person elevated ambience, completed. </p>
+													<h2>¿Por qué viajar para ver al Dr. Daniel?</h2>	
+													<p>Viajar a México para una cirugía ortopédica puede ser 
+														una opción rentable, ofreciendo servicios médicos de alta calidad a 
+														una fracción del precio encontrado en EE. UU. 
+														y con tiempos de espera más cortos que en Canadá.</p>
+												</div>
+												<div class="witr_section_title_inner text-left">
+													<h2>Puerto Vallarta</h2>	
+													<p>Puerto Vallarta, ubicado en la costa del Pacífico 
+														de México, es conocido por sus impresionantes playas, 
+														vibrante vida nocturna y rica historia cultural. 
+														Este pintoresco destino ofrece una mezcla perfecta 
+														de relajación y aventura, con actividades que van 
+														desde la observación de ballenas hasta explorar 
+														calles adoquinadas y galerías de arte locales.</p>
 												</div>
 											</div>				
 											<div class="em-service2 sleft all_color_service border_top">
@@ -292,8 +314,14 @@
 															</div>
 															<div class="em-service-inner">
 																<div class="em-service-title">
-																	<div class="em-service-desc">
-																		<p>Madical have suffered alteration in some form, by injected humour, or randomised words which don't . </p>		
+																	<div class="witr_section_title_inner text-left">
+																		<h2>Beneficios</h2><br>
+																		<ul  class="menu">
+																		<li></i>Instalaciones de Última Generación</li>
+																		<li></i>Personal Bilingüe</li>	
+																		<li></i>Tratamiento en Solo Unas Semanas</li>	
+																		<li></i>Una Fracción del Costo en EE. UU.</li>	
+																	</ul>	
 																	</div>
 																</div>
 															</div>
@@ -301,33 +329,13 @@
 													</div>
 												</div>
 											</div>
-											<div class="em-service2 sleft all_color_service">
-												<div class="em_service_content ">
-													<div class="em_single_service_text width_height_link_0 ">
-														<div class="service_top_image"></div>
-														<div class="text_box witr_s_flex">
-															<div class="service_top_text all_icon_color">
-																<div class="em-service-icon">
-																	<i class="icofont-rounded-double-right"></i>
-																</div>			
-															</div>
-															<div class="em-service-inner">
-																<div class="em-service-title"></div>						
-																<div class="em-service-desc">
-																	<p>There isn't anything embarrassing hidden in the middle of text.on the Internet tend to repeat predefined. </p>		
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
 											<div class="tab_title">
-												<h2>But I must explain to you how all this mistaken idea of denouncing pleasure and praising.</h2>	
+												<h2>La cirugía con el Dr. Daniel puede ser hasta un 70% más barata que realizar la misma cirugía en los Estados Unidos.</h2>	
 											</div>
 											<div class="witr_button_area">
 												<div class="witr_btn_style mr">
 													<div class="witr_btn_sinner">	
-														<a href="index-2.html#" class="witr_btn">Read More Contant					
+														<a href="index-2.html#" class="witr_btn">Leer mas					
 															<div class="pluse_btn_icon">
 																<span class="fas fa-arrow-right"></span>
 															</div>
@@ -340,7 +348,7 @@
 									<div class="col-lg-6 col-md-12 col-sm-12">
 										<div class="witr_play_vi witr_all_color_v">
 											<div class="witr_videobg_image">
-												<img src="assets/images/tab-image-1.jpg" alt="">
+												<img src="assets/images/hospital_ortopedia.png" alt="">
 												<div class="play-overlay ">
 													<a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=XHOmBV4js_E">
 														<i class="fas fa-play"></i>					

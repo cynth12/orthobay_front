@@ -19,7 +19,7 @@
                         <ul class="social-icons text-right text_m_center">
                             <li><a href="index.html#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="index.html#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="index.html#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="index.html#"><i class="fab fa-instagram"></i></a></li>
                             <li><a href="index.html#"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                     </div>
