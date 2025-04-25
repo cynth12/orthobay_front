@@ -65,13 +65,10 @@
 				<div class="all_feature_color single_feature2 text-left">            
 					<div class="witr_feature2">					
 						<div class="witr_fea2_icon_top">
-							<i class="fas fa-wheelchair"></i>					
+							<i class="fas fa-heart"></i>					
 						</div>
-						<h3>Paralysis Disability </h3>
-						<p>While building out a new website you  literally no idea of where to start. </p>		
-						<div class="witr_feature_btn2">
-							<a class="witr_btn_all_color" href="index-2.html#">Read More +</a>
-						</div>
+						<h3>Calidez</h3>
+						<p>Te tratamos y cuidamos tu integridad y salud como familia </p>		
 						<div class="witr_feature2_icon">						
 							<i class="fas fa-wheelchair"></i>					
 						</div>					
@@ -85,11 +82,8 @@
 						<div class="witr_fea2_icon_top">
 							<i class="fas fa-briefcase-medical"></i>				
 						</div>
-						<h3>Patient of Beding</h3>
-						<p>While building out a new website you  literally no idea of where to start. </p>		
-						<div class="witr_feature_btn2">
-							<a class="witr_btn_all_color" href="index-2.html#">Read More +</a>
-						</div>
+						<h3>Confianza</h3>
+						<p>Hacemos bien el trabajo a la primera y cuidamos cada detalle</p>		
 						<div class="witr_feature2_icon">						
 							<i class="fas fa-briefcase-medical"></i>					
 						</div>					
@@ -101,13 +95,10 @@
 				<div class="all_feature_color single_feature2 text-left">            
 					<div class="witr_feature2">					
 						<div class="witr_fea2_icon_top">
-							<i class="fas fa-flask"></i>					
+							<i class="fas fa-check"></i>					
 						</div>
-						<h3>Health Laboratory</h3>
-						<p>While building out a new website you  literally no idea of where to start. </p>		
-						<div class="witr_feature_btn2">
-							<a class="witr_btn_all_color" href="index-2.html#">Read More +</a>
-						</div>
+						<h3>Calidad</h3>
+						<p>Solo utilizamos los mejores materiales, en las mas especializadas instalaciones.</p>		
 						<div class="witr_feature2_icon">						
 							<i class="fas fa-flask"></i>				
 						</div>					
@@ -125,7 +116,7 @@
 			<div class="col-lg-6 col-md-12 col-sm-12">
 				<div class="single_image_area">
 					<div class="single_image  ">
-						<img src="assets/images/about-image.png" alt="">
+						<img src="assets/images/doctor_1.png" alt="">
 					</div>
 				</div>
 				<div class="row video_area">
@@ -137,7 +128,7 @@
 									<a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=XHOmBV4js_E">
 										<i class="fas fa-play"></i>					
 									</a>
-									<h3>Our Watch Video! </h3>		
+									<h3>Mira nuestro Video! </h3>		
 								</div>
 							</div> 
 						</div>
@@ -148,8 +139,8 @@
 				<div class="witr_section_right">
 					<div class="witr_section_title">
 						<div class="witr_section_title_inner text-left">
-							<h2>OUR ABOUT US</h2>		
-							<h3>We Should Do For Medical About This Success.  </h3>		
+							<h2>Conoce al doctor</h2>		
+							<h3>Daniel Ponce Covarrubias</h3>		
 							<p>It is issued free of charge in medical offices or at home with  time purchase of services in the amount of more than $40 per person. ices in an elevated ambience, completed by service and report efficiency. Our Pathology division offers a comprehensive range of laboratory tests for diagnosis, management. </p>		
 						</div>
 					</div>
@@ -165,7 +156,7 @@
 									</div>
 									<div class="em-service-inner">
 										<div class="em-service-title">
-											<h3>Health Laboratory </h3>
+											<h3>Tu Experto de Confianza en Cirugía Ortopédica</h3>
 										</div>						
 										<div class="em-service-desc">
 											<p>Some of the conditions overlap with those neurologists, and others are unique to this seen younger population. </p>		
@@ -229,12 +220,12 @@
 			<div class="col-lg-12">
 				<div class="witr_section_title">
 					<div class="witr_section_title_inner text-center">
-						<h2>Our tab contant</h2>		
+						<h2>Nuestros servicios</h2>		
 						<div class="witr_image_title">								
 							<img src="assets/images/title-icon-1.png" alt="">
 						</div>
-						<h3>Medical Doctor with About</h3>
-						<h1>Best  Laboratory.</h1>		
+						<h3>Servicios Ortopédicos Integrales </h3>
+						<h1>Puerto Vallarta, México</h1>		
 					</div>
 				</div>
 			</div>
@@ -247,7 +238,7 @@
 									<span class="witr_tab_icona">
 										<i class="icofont-brain-alt"></i>
 									</span>
-									<strong>Brain-althim</strong>
+									<strong>Cirugia de Rodilla</strong>
 								</a>
 							</li>	
 							<li class="nav-item">
@@ -255,7 +246,7 @@
 									<span class="witr_tab_icona">
 										<i class="icofont-ambulance-crescent"></i>
 									</span>
-									<strong>Emergency</strong>
+									<strong>Cirugia de hombro</strong>
 								</a>
 							</li>
 							<li class="nav-item">
@@ -263,7 +254,7 @@
 									<span class="witr_tab_icona">
 										<i class="icofont-heart-beat"></i>
 									</span>
-									<strong>Heart-beat</strong>
+									<strong>Cirugia de cadera</strong>
 								</a>
 							</li>
 							<li class="nav-item">
@@ -271,7 +262,7 @@
 									<span class="witr_tab_icona">
 										<i class="icofont-blood"></i>
 									</span>
-									<strong>Blood-test</strong>
+									<strong>Cirugia de espalda</strong>
 								</a>
 							</li>	
 						</ul>

@@ -13,7 +13,7 @@
 			<div class="swiper-slide witr_swiper_height" style="background-image: url(assets/images/slider-2.jpg); ">
 				<div class="witr_sw_text_area text-left">
 					<div class="witr_swiper_content ">
-						<h1>Welcome To Family Doctor! </h1>
+						<h1>Welcome To Ortobay! </h1>
 						<h2>Best Health Care For Family Doctor.</h2>
 						<p>We will help you to feel better and enjoy every single day of your life.may be the fastest growing health.</p>
 						<!-- btn gradient style -->
@@ -27,10 +27,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="swiper-slide witr_swiper_height " style="background-image: url(assets/images/slider-1.jpg);">
+			<div class="swiper-slide witr_swiper_height" style="background-image: url('assets/images/daniel_ponce.png'); background-size: contain; background-repeat: no-repeat; 
+			background-position: right center; background-color: #dff3f2;">
 				<div class="witr_sw_text_area text-left">
 					<div class="witr_swiper_content ">
-						<h1>Welcome To Family Doctor! </h1>
+						<h1>Welcome To ! </h1>
 						<h2>Best Health Care For Family Doctor.</h2>
 						<p>We will help you to feel better and enjoy every single day of your life.may be the fastest growing health.</p>
 						<!-- btn gradient style -->
