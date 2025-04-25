@@ -7,7 +7,7 @@ use App\Http\Controllers\HomeController;
 
 
 Route::get('/', function () {
-    return redirect('/en');
+    return redirect('/es');
 });
 
 
