@@ -6,14 +6,7 @@ use App\Http\Controllers\HomeController;
 
 
 
-Route::get('/', function () {
-    return redirect('/es');
-});
-
-
-
-
-
+Route::redirect('/', '/en');
 
 
 Route::group(['prefix' => 'en'], function () {
