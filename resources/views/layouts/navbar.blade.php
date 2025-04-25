@@ -16,9 +16,8 @@
                 <div class="col-xs-12 col-lg-3 col-xl-3 col-md-3 col-sm-12 ">
                     <div class="top-right-menu">
                         <ul class="social-icons text-right text_m_center">
-                            <li><a href="index.html#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="index.html#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="index.html#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/share/1AFnvTu7wm/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/orthobay_drdanielponce/profilecard/?igsh=a3RtcHE3OHgzMW8y"><i class="fab fa-instagram"></i></a></li>
                             <li><a href="index.html#"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                     </div>

@@ -130,7 +130,7 @@
                                 <div class="video-overlay witr_all_color_v">
                                     <div class="video-item text-center">
                                         <a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube"
-                                            data-autoplay="true" href="https://www.youtube.com/watch?v=XHOmBV4js_E">
+                                            data-autoplay="true" href="#">
                                             <i class="fas fa-play"></i>
                                         </a>
                                         <h3>Our Watch Video!</h3>
@@ -231,11 +231,11 @@
                 <div class="col-lg-12">
                     <div class="witr_section_title">
                         <div class="witr_section_title_inner text-center">
-                            <h2>Orthopedic Services in Puerto Vallarta</h2>
+                            <h2>Orthopedic Services</h2>
                             <div class="witr_image_title">
                                 <img src="assets/images/title-icon-1.png" alt="">
                             </div>
-                            <h3>Comprehensive Orthopedic Services</h3>
+                            <h3></h3>
                             <h1>Puerto Vallarta, Mexico</h1>
                         </div>
                     </div>
@@ -245,7 +245,7 @@
                         <div class="witr_adv_tab_menu">
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
-                                    <a class="nav-link epo-4931cc5 active" data-toggle="tab"
+                                    <a class="nav-link epo-4931cc5" data-toggle="tab"
                                         href="index-2.html#tx_tab_01">
                                         <span class="witr_tab_icona">
                                             <i class="icofont-bone"></i>
@@ -256,7 +256,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link epo-1b77303" data-toggle="tab" href="index-2.html#tx_tab_02">
                                         <span class="witr_tab_icona">
-                                            <i class="icofont-user-alt-3"></i>
+                                            <i class=""></i>
                                         </span>
                                         <strong>Shoulder Surgery</strong>
                                     </a>
@@ -355,7 +355,7 @@
                                                     <div class="play-overlay ">
                                                         <a class="video-popup video-vemo-icon venobox vbox-item"
                                                             data-vbtype="youtube" data-autoplay="true"
-                                                            href="https://www.youtube.com/watch?v=XHOmBV4js_E">
+                                                            href="#">
                                                             <i class="fas fa-play"></i>
                                                         </a>
                                                     </div>
@@ -373,7 +373,7 @@
                                                     <div class="play-overlay ">
                                                         <a class="video-popup video-vemo-icon venobox vbox-item"
                                                             target="_blank" data-vbtype="youtube" data-autoplay="true"
-                                                            href="https://www.youtube.com/watch?v=XHOmBV4js_E">
+                                                            href="#">
                                                             <i class="fas fa-play"></i>
                                                         </a>
                                                     </div>
@@ -398,7 +398,7 @@
 				<div class="witr_play_vi witr_all_color_v">
 					<div class="witr_videobg_image">
 						<div class="play-overlay ">
-							<a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=XHOmBV4js_E">
+							<a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="#">
 								<i class="fas fa-play"></i>					
 							</a>
 						</div>

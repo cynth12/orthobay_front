@@ -11,8 +11,8 @@
 							 <p>Orthobay Vallarta provides specialized orthopedic and trauma surgery services 
 								in Puerto Vallarta. High-quality care for local and international patients.</p>
 							 <div class="social-icons">
-								<a href="index.html#"><i class="fab fa-facebook-f"></i></a>
-								<a href="index.html#" ><i class="fab fa-instagram"></i></a>
+								<a href="https://www.facebook.com/share/1AFnvTu7wm/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://www.instagram.com/orthobay_drdanielponce/profilecard/?igsh=a3RtcHE3OHgzMW8y"><i class="fab fa-instagram"></i></a>
 								<a href="index.html#"><i class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
@@ -23,11 +23,10 @@
 						<h2 class="widget-title">Quick Links</h2>
 						<div class="menu-help-link-container">
 							<ul  class="menu">
-								<li><a href="index.html#">– Customers Services</a></li>
-								<li><a href="index.html#">– Department Doctor</a></li>
-								<li><a href="index.html#">– About Our Company</a></li>
-								<li><a href="index.html#">– Medical Service</a></li>
-								<li><a href="index.html#">– Make An Appointment	</a></li>
+								<li><a href="index.html#">– Knee Surgery</a></li>
+								<li><a href="index.html#">– Shoulder Surgery</a></li>
+								<li><a href="index.html#">– Hip Surgery</a></li>
+								<li><a href="index.html#">– Back Surgery</a></li>
 							</ul>
 						</div>
 					</div>	

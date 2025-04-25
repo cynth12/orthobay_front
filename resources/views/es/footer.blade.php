@@ -10,8 +10,8 @@
 							 <p>Orthobay Vallarta ofrece servicios médicos especializados en ortopedia y traumatología en Puerto Vallarta. 
 								Atención de calidad para pacientes locales e internacionales.</p>
 							 <div class="social-icons">
-								<a href="index.html#"><i class="fab fa-facebook-f"></i></a>
-								<a href="index.html#" ><i class="fab fa-instagram"></i></a>
+								<a href="https://www.facebook.com/share/1AFnvTu7wm/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://www.instagram.com/orthobay_drdanielponce/profilecard/?igsh=a3RtcHE3OHgzMW8y"><i class="fab fa-instagram"></i></a>
 								<a href="index.html#"><i class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
