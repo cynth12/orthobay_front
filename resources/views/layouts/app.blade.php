@@ -5,23 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    @switch(app()->getLocale())
-        @case('es')
-            <title>Orthobay Vallarta – Ortopedia y Traumatología</title>
-            <meta name="description"
-                content="Orthobay Vallarta ofrece servicios médicos especializados en ortopedia y traumatología en Puerto Vallarta. Atención de calidad para pacientes locales e internacionales.">
-        @break
-
-        @case('en')
-            <title>Orthobay Vallarta – Orthopedic and Trauma Surgery</title>
-            <meta name="description"
-                content="Orthobay Vallarta provides specialized orthopedic and trauma surgery services in Puerto Vallarta. High-quality care for local and international patients.">
-        @break
-    @endswitch
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon_1.png') }}">
-    @include('layouts.commonCSS')
+    <head>
+        @switch(app()->getLocale())
+            @case('es')
+                <title>Orthobay Vallarta 🦴 Ortopedia y Traumatología</title>
+                <meta name="description" content="Orthobay Vallarta ofrece servicios médicos especializados en ortopedia y traumatología en Puerto Vallarta. Atención de calidad para pacientes locales e internacionales.">
+                @section('og_title', 'Orthobay Vallarta 🦴 Ortopedia y Traumatología')
+                @section('og_description', 'Servicios médicos especializados en ortopedia y traumatología en Puerto Vallarta.')
+                @break
+    
+            @case('en')
+                <title>Orthobay Vallarta 🦴 Orthopedic and Trauma Surgery</title>
+                <meta name="description" content="Orthobay Vallarta provides specialized orthopedic and trauma surgery services in Puerto Vallarta. High-quality care for local and international patients.">
+                @section('og_title', 'Orthobay Vallarta 🦴 Orthopedic and Trauma Surgery')
+                @section('og_description', 'Specialized orthopedic and trauma surgery in Puerto Vallarta, Mexico.')
+                @break
+        @endswitch
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon_1.png') }}">
+    
+        <!-- OPEN GRAPH -->
+        <meta property="og:title" content="@yield('og_title')" />
+        <meta property="og:description" content="@yield('og_description')" />
+        <meta property="og:image" content="{{ url('assets/images/og-image.png') }}" />
+        <meta property="og:url" content="{{ url()->current() }}" />
+        <meta property="og:type" content="website" />
+    
+        <!-- TWITTER CARD (opcional pero recomendado) -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="@yield('og_title')" />
+        <meta name="twitter:description" content="@yield('og_description')" />
+        <meta name="twitter:image" content="{{ url('assets/images/og-image.png') }}" />
+    
+        @include('layouts.commonCSS')
+    </head>
+    
 </head>
 
 <body>
