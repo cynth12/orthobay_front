@@ -43,7 +43,8 @@
 											<i class="fa fa-map-marker"></i>
 										</div>									
 										<div class="footer-sociala-info">				
-											<p>Adress: Puerto Vllarta Mexico.</p>
+											<p>Adress: Núcleo Médico Joya, office # 02, 55 Paseo de los Cocoteros Av, 
+												Zona Hotelera, Nuevo Nayarit, Nayarit, ZipCode 63735</p>
 										</div> 
 									</div> 
 									<div class="footer_s_inner"> 
@@ -51,7 +52,7 @@
 											<i class="fa fa-phone"></i>
 										</div> 									
 										<div class="footer-sociala-info">   
-												<p>Phone: +06544451100<br> Fax: +(03)1548656845</p>
+												<p>Telefono: +52 322 421 8769<br> Whatsapp:  +52 322 2726803</p>
 										</div>
 									</div>
 									<div class="footer_s_inner"> 
@@ -59,7 +60,7 @@
 											<i class="fas fa-envelope"></i>
 										</div> 
 										<div class="footer-sociala-info">  
-											<p>Email: danielponce@orthobay.com</p>
+											<p>Email:  orthobay.drponce@gmail.com</p>
 										</div>
 									</div>
 								</div>
@@ -73,24 +74,20 @@
 						<div class="textwidget custom-html-widget">
 							<div class="witr_table">
 								<div class="witr_sub_table">
-									<span>Tuesday - Friday</span>
-									<span>08:00 - 20:00</span>
+									<span>Lunes, Miercoles y Viernes</span>
+									<span> 10:00 a 21:00</span>
 								</div>
 								<div class="witr_sub_table">	
 									<span>Saturday</span>
-									<span>09:00 - 18:00</span>
+									<span>Cerrado</span>
 								</div>		
 								<div class="witr_sub_table">		
 									<span>Sunday</span>
-									<span>09:00 - 18:00</span>
-								</div>
-								<div class="witr_sub_table">		
-									<span>Monday</span>
-									<span>09:00 - 18:00</span>
+									<span>Cerrado</span>
 								</div>
 								<div class="witr_sub_table">		
 									<span>Emergency:</span>
-									<span> (+099) 020 768 69</span>
+									<span> 24/7</span>
 								</div>
 							</div>
 						</div>
