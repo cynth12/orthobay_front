@@ -18,7 +18,7 @@
                         <ul class="social-icons text-right text_m_center">
                             <li><a href="https://www.facebook.com/share/1AFnvTu7wm/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="https://www.instagram.com/orthobay_drdanielponce/profilecard/?igsh=a3RtcHE3OHgzMW8y"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="index.html#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://www.youtube.com/shorts/uMhoaKaF1Z8"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                     </div>
                 </div>
