@@ -15,5 +15,11 @@ Route::group(['prefix' => 'en'], function () {
 
 Route::group(['prefix' => 'es'], function () {
     Route::get('/', [HomeController::class, 'index'])->name('es.inicio');
+
+    Route::get('cadera', function () {
+    return view('es.cadera.index');
 });
+});
+
+
     
