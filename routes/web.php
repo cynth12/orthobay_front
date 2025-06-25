@@ -13,12 +13,30 @@ Route::group(['prefix' => 'en'], function () {
     Route::get('/', [HomeController::class, 'index'])->name('en.home');
 });
 
-Route::group(['prefix' => 'es'], function () {
+
+
+
+
+    Route::group(['prefix' => 'es'], function () {
     Route::get('/', [HomeController::class, 'index'])->name('es.inicio');
 
     Route::get('cadera', function () {
     return view('es.cadera.index');
 });
+    Route::get('rodilla', function () {
+    return view('es.rodilla.index');
+});
+    Route::get('hombro', function () {
+    return view('es.hombro.index');
+});
+    Route::get('espalda', function () {
+    return view('es.espalda.index');
+});
+
+    Route::get('nosotros', function () {
+    return view('es.nosotros.index');
+});
+    
 });
 
 

@@ -53,12 +53,12 @@
                                             <nav class="smartdev_menu">
                                                 <ul class="sub-menu">
                                                     @if (app()->getLocale() == 'es')
-                                                    <li class="menu-item-has-children"><a href="{{ url('/es/#inicio') }}">Inicio</a></li>
-                                                    <li class="menu-item-has-children"><a href="/es/#rodilla">Rodilla</a></li>
+                                                    <li class="menu-item-has-children"><a href="{{ url('/es/#inicio')}}">Inicio</a></li>
+                                                    <li class="menu-item-has-children"><a href="{{ url('/es/rodilla')}}">Rodilla</a></li>
                                                     <li class="menu-item-has-children"><a href="{{ url('/es/cadera')}}">Cadera</a></li>
-                                                    <li class="menu-item-has-children"><a href="/es/#hombro">Hombro</a></li>
-                                                    <li class="menu-item-has-children"><a href="/es/#espalda">Espalda</a></li>
-                                                    <li class="menu-item-has-children"><a href="/es/#nosotros">Nosotros</a></li>
+                                                    <li class="menu-item-has-children"><a href="{{ url('/es/hombro')}}">Hombro</a></li>
+                                                    <li class="menu-item-has-children"><a href="{{ url('/es/espalda')}}">Espalda</a></li>
+                                                    <li class="menu-item-has-children"><a href="{{ url('/es/nosotros')}}">Nosotros</a></li>
                                                     <li class="menu-item-has-children"><a href="{{ url('/en') }}">Ingles</a></li>
                                                     
                                             @else
