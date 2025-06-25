@@ -63,11 +63,11 @@
                                                     
                                             @else
                                                     <li class="menu-item-has-children"><a href="{{ url('/en/#home') }}">Home</a></li>
-                                                    <li class="menu-item-has-children"><a href="/en/#knee">Knee</a></li>
-                                                    <li class="menu-item-has-children"><a href="/en/#hip">Hip</a></li>
-                                                    <li class="menu-item-has-children"><a href="/en/#shoulder">Shoulder</a></li>
-                                                    <li class="menu-item-has-children"><a href="/en/#back">Back</a></li>  
-                                                    <li class="menu-item-has-children"><a href="/en/#about">About</a></li>  
+                                                    <li class="menu-item-has-children"><a href="{{ url('/en/knee')}}">Knee</a></li>
+                                                    <li class="menu-item-has-children"><a href="{{ url('/en/hip')}}">Hip</a></li>
+                                                    <li class="menu-item-has-children"><a href="{{ url('/en/shoulder')}}">Shoulder</a></li>
+                                                    <li class="menu-item-has-children"><a href="{{ url('/en/back')}}">Back</a></li>  
+                                                    <li class="menu-item-has-children"><a href="{{ url('/en/about')}}">About</a></li>  
                                                     <li class="menu-item-has-children"><a href="{{ url('/es') }}">Spanish</a></li> 
                                                     
                                             @endif     

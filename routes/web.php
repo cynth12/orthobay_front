@@ -9,11 +9,26 @@ use App\Http\Controllers\HomeController;
 Route::redirect('/', '/en');
 
 
-Route::group(['prefix' => 'en'], function () {
+    Route::group(['prefix' => 'en'], function () {  
     Route::get('/', [HomeController::class, 'index'])->name('en.home');
+
+        Route::get('hip', function () {
+    return view('en.hip.index');
+});
+    Route::get('knee', function () {
+    return view('en.knee.index');
+});
+    Route::get('shoulder', function () {
+    return view('en.shoulder.index');
+});
+    Route::get('back', function () {
+    return view('en.back.index');
 });
 
-
+    Route::get('about', function () {
+    return view('en.about.index');
+});
+});
 
 
 
