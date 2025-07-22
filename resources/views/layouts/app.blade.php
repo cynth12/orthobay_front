@@ -24,7 +24,7 @@
     
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon_1.png') }}">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <!-- OPEN GRAPH -->
         <meta property="og:title" content="@yield('og_title')" />
         <meta property="og:description" content="@yield('og_description')" />
@@ -61,6 +61,10 @@
     @endswitch
 
     @include('layouts.commonJS')
+
+    <a href="https://wa.me/5213222726803" target="_blank" class="whatsapp-float" title="Envíanos un mensaje">
+    <i class="fab fa-whatsapp"></i>
+</a>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
