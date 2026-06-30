@@ -409,6 +409,58 @@
 	</div>
 </div>
 
+<!-- smartdev_serivce_bg_area -->
+<div class="smartdev_serivce_bg_area serivce_bg" id="service">
+	<div class="container">	
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="witr_section_title">
+					<div class="witr_section_title_inner text-center">
+						<h2>Our Service</h2>		
+						<div class="witr_image_title">								
+							<img src="assets/images/title-icon-1.png" alt="">
+						</div>
+						<h3>Smartdev  Digital Services for</h3>		
+						<h1>Your Company?  </h1>		
+					</div>
+				</div>					
+			</div>					
+		</div>
+		<div class="row service_top">
+			<!-- smartdev_serivce_bg_01 -->
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="service-item all_color_service  text-left  ">
+					<div class="service_top_image">
+						<img src="assets/images/service-1.png" alt="">
+					</div>
+					<div class="text_box all_icon_color">
+						<i class="icofont-paralysis-disability"></i>
+						<h3><a href="index-2.html#">Paralysis Disability</a></h3>
+						<p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text the medical. </p>		
+						<div class="service-btn btn2">
+							<a href="index-2.html#">Read More<span class="ti-arrow-right"></span></a>
+						</div>
+					</div> 							
+				</div>
+			</div>
+			<!-- smartdev_serivce_bg_02 -->
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="service-item all_color_service  text-left  ">
+					<div class="service_top_image">
+						<img src="assets/images/service-2.png" alt="">
+					</div>
+					<div class="text_box all_icon_color">
+						<i class="icofont-brain-alt"></i>
+						<h3><a href="index-2.html#">Brain Disability</a></h3>
+						<p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text the medical. </p>		
+						<div class="service-btn btn2">
+							<a href="index-2.html#">Read More<span class="ti-arrow-right"></span></a>
+						</div>
+					</div> 							
+				</div>
+			</div>
+            
+
 
 
 
