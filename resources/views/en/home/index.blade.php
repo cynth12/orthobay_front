@@ -353,13 +353,13 @@
                                             <div class="witr_play_vi witr_all_color_v">
                                                 <div class="witr_videobg_image">
                                                     <img src="assets/images/hospital_ortopedia.png" alt="">
-                                                    <div class="play-overlay ">
+                                                    <!--<div class="play-overlay ">
                                                         <a class="video-popup video-vemo-icon venobox vbox-item"
                                                             data-vbtype="youtube" data-autoplay="true"
                                                             href="#">
                                                             <i class="fas fa-play"></i>
                                                         </a>
-                                                    </div>
+                                                    </div>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -371,13 +371,13 @@
                                             <div class="witr_play_vi witr_all_color_v">
                                                 <div class="witr_videobg_image">
                                                     <img src="assets/images/hospital_ortopedia.png" alt="">
-                                                    <div class="play-overlay ">
+                                                   <!-- <div class="play-overlay ">
                                                         <a class="video-popup video-vemo-icon venobox vbox-item"
                                                             target="_blank" data-vbtype="youtube" data-autoplay="true"
                                                             href="#">
                                                             <i class="fas fa-play"></i>
                                                         </a>
-                                                    </div>
+                                                    </div>-->
                                                 </div>
                                             </div>
                                         </div>
