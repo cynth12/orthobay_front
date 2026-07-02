@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <div class="witr_swiper_area">
+    <div id="home" class="witr_swiper_area">
         <div class="swiper-container witr_active_id5 ">
             <div class="swiper-wrapper">
                 <div class="swiper-slide witr_swiper_height" style="background-image: url('assets/images/daniel_ponce.png'); background-size: contain; background-repeat: no-repeat; 
@@ -115,7 +115,7 @@
     </div>
 
     <!-- smartdev_about_area -->
-    <div class="smartdev_about_area" id="about">
+    <div id="about" class="smartdev_about_area">
         <div class="container">
             <div class="row about_area">
                 <div class="col-lg-6 col-md-12 col-sm-12">
@@ -270,17 +270,91 @@
                                         <strong>Hip Surgery</strong>
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link epo-76ded62" data-toggle="tab" href="index-2.html#tx_tab_04">
-                                        <span class="witr_tab_icona">
-                                            <i class="icofont-disabled"></i>
-                                        </span>
-                                        <strong>Back Surgery</strong>
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                         <!-- Tab panes -->
+                  <!-- smartdev_serivce_bg_area -->
+                        <div id="knee" class="smartdev_serivce_bg_area serivce_bg">
+                            <div class="container">
+                                <div class="row service_top">
+                                    <!-- smartdev_serivce_bg_01 -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="service-item all_color_service  text-left  ">
+                                            <div class="service_top_image">
+                                                <img src="assets/images/service-1.png" alt="">
+                                            </div>
+                                            <div class="text_box all_icon_color">
+                                                <i class="icofont-paralysis-disability"></i>
+                                                <h3><a>Knee Replacement</a></h3>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- smartdev_serivce_bg_02 -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="service-item all_color_service  text-left  ">
+                                            <div class="service_top_image">
+                                                <img src="assets/images/service-2.png" alt="">
+                                            </div>
+                                            <div class="text_box all_icon_color">
+                                                <i class="icofont-brain-alt"></i>
+                                                <h3><a>Knee Arthroscopy</a></h3>
+                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
+                                                    in the middle of text the medical. </p>
+                                                <!--<div class="service-btn btn2">
+           <a href="#">Read More<span class="ti-arrow-right"></span></a>
+          </div>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- smartdev_serivce_bg_03 -->
+                                    <div id="hip" class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="service-item all_color_service  text-left  ">
+                                            <div class="service_top_image">
+                                                <img src="assets/images/service-3.png" alt="">
+                                            </div>
+                                            <div class="text_box all_icon_color">
+                                                <i class="icofont-doctor-alt"></i>
+                                                <h3></a>Hip Replacement</h3>
+                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
+                                                    in the middle of text the medical. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- smartdev_serivce_bg_04 -->
+                                    <div id="shoulder" class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="service-item all_color_service  text-left  ">
+                                            <div class="service_top_image">
+                                                <img src="assets/images/service-4.png" alt="">
+                                            </div>
+                                            <div class="text_box all_icon_color">
+                                                <i class="icofont-ambulance-crescent"></i>
+                                                <h3><a>Shoulder Replacement</a></h3>
+                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
+                                                    in the middle of text the medical. </p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- smartdev_serivce_bg_05 -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="service-item all_color_service  text-left  ">
+                                            <div class="service_top_image">
+                                                <img src="assets/images/service-5.png" alt="">
+                                            </div>
+                                            <div class="text_box all_icon_color">
+                                                <i class="icofont-heart-beat"></i>
+                                                <h3><a>Shoulder Arthroscopy</a></h3>
+                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
+                                                    in the middle of text the medical. </p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- smartdev_serivce_bg_06 -->
+                                </div>
+                            </div>
+                        </div>
                         <div class="witr_adv_tab_content">
                             <div class="tab-content">
                                 <div class="tab-pane fade epo-4931cc5 active show" id="tx_tab_01">
@@ -390,6 +464,7 @@
             </div>
         </div>
     </div>
+    
 
 	<!-- smartdev_video_area -->
 <div class="smartdev_video_area">
@@ -410,57 +485,7 @@
 	</div>
 </div>
 
-<!-- smartdev_serivce_bg_area -->
-<div class="smartdev_serivce_bg_area serivce_bg" id="service">
-	<div class="container">	
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="witr_section_title">
-					<div class="witr_section_title_inner text-center">
-						<h2>Our Service</h2>		
-						<div class="witr_image_title">								
-							<img src="assets/images/title-icon-1.png" alt="">
-						</div>
-						<h3>Smartdev  Digital Services for</h3>		
-						<h1>Your Company?  </h1>		
-					</div>
-				</div>					
-			</div>					
-		</div>
-		<div class="row service_top">
-			<!-- smartdev_serivce_bg_01 -->
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="service-item all_color_service  text-left  ">
-					<div class="service_top_image">
-						<img src="assets/images/service-1.png" alt="">
-					</div>
-					<div class="text_box all_icon_color">
-						<i class="icofont-paralysis-disability"></i>
-						<h3><a href="index-2.html#">Paralysis Disability</a></h3>
-						<p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text the medical. </p>		
-						<div class="service-btn btn2">
-							<a href="index-2.html#">Read More<span class="ti-arrow-right"></span></a>
-						</div>
-					</div> 							
-				</div>
-			</div>
-			<!-- smartdev_serivce_bg_02 -->
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="service-item all_color_service  text-left  ">
-					<div class="service_top_image">
-						<img src="assets/images/service-2.png" alt="">
-					</div>
-					<div class="text_box all_icon_color">
-						<i class="icofont-brain-alt"></i>
-						<h3><a href="index-2.html#">Brain Disability</a></h3>
-						<p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text the medical. </p>		
-						<div class="service-btn btn2">
-							<a href="index-2.html#">Read More<span class="ti-arrow-right"></span></a>
-						</div>
-					</div> 							
-				</div>
-			</div>
-            
+
 
 
 
