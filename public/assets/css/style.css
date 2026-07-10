@@ -5215,5 +5215,21 @@ select:-webkit-autofill:active{
     transform: scale(1.1);
     background-color: #1ebe5d;
 }
+@media (max-width:768px){
 
+    .smartdev-header-top{
+        display:block !important;
+        position:relative;
+        z-index:9999;
+    }
+
+}
+@media (max-width:768px){
+
+    .em40_header_area_main{
+        position:relative !important;
+        top:0 !important;
+    }
+
+}
   
