@@ -10,7 +10,8 @@
     <div id="home" class="witr_swiper_area">
         <div class="swiper-container witr_active_id5 ">
             <div class="swiper-wrapper">
-                <div class="swiper-slide witr_swiper_height" style="background-image: url('assets/images/daniel_ponce.png'); background-size: contain; background-repeat: no-repeat; 
+                <div class="swiper-slide witr_swiper_height"
+                    style="background-image: url('assets/images/daniel_ponce.png'); background-size: contain; background-repeat: no-repeat; 
 			background-position: right center; background-color: #dff3f2; ">
                     <div class="witr_sw_text_area text-left">
                         <div class="witr_swiper_content ">
@@ -246,8 +247,7 @@
                         <div class="witr_adv_tab_menu">
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
-                                    <a class="nav-link epo-4931cc5" data-toggle="tab"
-                                        href="index-2.html#tx_tab_01">
+                                    <a class="nav-link epo-4931cc5" data-toggle="tab" href="index-2.html#tx_tab_01">
                                         <span class="witr_tab_icona">
                                             <i class="icofont-bone"></i>
                                         </span>
@@ -273,105 +273,200 @@
                             </ul>
                         </div>
                         <!-- Tab panes -->
-                  <!-- smartdev_serivce_bg_area -->
-                        <div id="rodilla" class="smartdev_serivce_bg_area serivce_bg">
+                        <!-- smartdev_serivce_bg_area -->
+                        <div id="knee" class="smartdev_serivce_bg_area serivce_bg">
                             <div class="container">
                                 <div class="row service_top">
-                                    <!-- smartdev_serivce_bg_01 -->
+
+                                    <!-- Knee Replacement -->
                                     <div class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="service-item all_color_service  text-left  ">
+                                        <div class="service-item all_color_service text-left">
                                             <div class="service_top_image">
                                                 <img src="assets/images/protesis_rodilla.png" alt="">
                                             </div>
-                                            <div class="text_box all_icon_color">
-                                               
-                                                <h3><a>Protesis de rodilla</a></h3>
-                                                <p>
-                                                <p style="text-align: justify;">
-                                                    🦵 <strong>Prótesis de Rodilla</strong><br><br>
 
-                                                    La prótesis de rodilla es una cirugía en la que se reemplaza la parte
-                                                    desgastada de la articulación por un implante diseñado para devolver el
-                                                    movimiento y disminuir el dolor. Se recomienda cuando el desgaste o la
-                                                    artritis impiden caminar con normalidad.
+                                            <div class="text_box all_icon_color">
+
+                                                <h3>🦵 <a>Knee Replacement</a></h3>
+
+                                                <p style="text-align: justify;">
+                                                    <br>
+
+                                                    Knee replacement is a surgical procedure in which the damaged
+                                                    parts of the knee joint are replaced with an artificial implant
+                                                    designed to relieve pain and restore movement. It is recommended
+                                                    when arthritis or joint wear makes walking and daily activities
+                                                    difficult.
                                                 </p>
 
-                                                <h5>Beneficios</h5>
+                                                <h5>Benefits</h5>
 
                                                 <ul>
-                                                    <li>Alivia el dolor.</li>
-                                                    <li>Mejora la movilidad.</li>
-                                                    <li>Permite volver a caminar con mayor seguridad.</li>
-                                                    <li>Ayuda a retomar las actividades de la vida diaria.</li>
+                                                    <li>Relieves knee pain.</li>
+                                                    <li>Improves mobility.</li>
+                                                    <li>Helps you walk more comfortably and safely.</li>
+                                                    <li>Allows you to return to everyday activities.</li>
                                                 </ul>
-                                                </p>
+
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- smartdev_serivce_bg_02 -->
+
+                                    <!-- Knee Arthroscopy -->
                                     <div class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="service-item all_color_service  text-left  ">
+                                        <div class="service-item all_color_service text-left">
+
                                             <div class="service_top_image">
                                                 <img src="assets/images/artroscopia_rodilla.png" alt="">
                                             </div>
+
                                             <div class="text_box all_icon_color">
-                                                <h3><a>Artroscopia de rodilla</a></h3>
-                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
-                                                    in the middle of text the medical. </p>
-                                                <!--<div class="service-btn btn2">
-                   <a href="#">Read More<span class="ti-arrow-right"></span></a>
-                  </div>-->
+
+                                                <h3>🔍 <a>Knee Arthroscopy</a></h3>
+
+                                                <p style="text-align: justify;">
+                                                    <br>
+
+                                                    Knee arthroscopy is a minimally invasive procedure that uses a
+                                                    small camera and specialized instruments to diagnose and treat
+                                                    injuries inside the knee joint, including damage to the meniscus,
+                                                    ligaments, or cartilage.
+                                                </p>
+
+                                                <h5>Benefits</h5>
+
+                                                <ul>
+                                                    <li>Small incisions with minimal scarring.</li>
+                                                    <li>Less pain after surgery.</li>
+                                                    <li>Faster recovery than traditional surgery.</li>
+                                                    <li>Earlier return to daily activities.</li>
+                                                </ul>
+
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- smartdev_serivce_bg_03 -->
-                                    <div id="cadera" class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="service-item all_color_service  text-left  ">
+
+                                    <!-- Hip Replacement -->
+                                    <div id="hip" class="col-lg-4 col-md-6 col-sm-12">
+
+                                        <div class="service-item all_color_service text-left">
+
                                             <div class="service_top_image">
                                                 <img src="assets/images/protesis_cadera.png" alt="">
                                             </div>
+
                                             <div class="text_box all_icon_color">
-                                               
-                                                <h3></a>Protesis de cadera</h3>
-                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
-                                                    in the middle of text the medical. </p>
+
+                                                <h3>🦴 <a>Hip Replacement</a></h3>
+
+                                                <p style="text-align: justify;">
+                                                    <br>
+
+                                                    Hip replacement is a procedure in which the damaged hip joint is
+                                                    replaced with an artificial implant to relieve pain and restore
+                                                    movement. It is recommended when arthritis, joint wear, or injury
+                                                    affects mobility and quality of life.
+                                                </p>
+
+                                                <h5>Benefits</h5>
+
+                                                <ul>
+                                                    <li>Relieves or eliminates hip pain.</li>
+                                                    <li>Improves mobility and walking stability.</li>
+                                                    <li>Helps you return to your daily routine.</li>
+                                                    <li>Improves overall quality of life.</li>
+                                                </ul>
+
                                             </div>
+
                                         </div>
+
                                     </div>
-                                    <!-- smartdev_serivce_bg_04 -->
-                                    <div id="hombro" class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="service-item all_color_service  text-left  ">
+
+                                    <!-- Shoulder Replacement -->
+                                    <div id="shoulder" class="col-lg-4 col-md-6 col-sm-12">
+
+                                        <div class="service-item all_color_service text-left">
+
                                             <div class="service_top_image">
                                                 <img src="assets/images/protesis_hombro.png" alt="">
                                             </div>
+
                                             <div class="text_box all_icon_color">
-                                                <!--<i class="icofont-ambulance-crescent"></i>--->
-                                                <h3><a>Protesis de hombro</a></h3>
-                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
-                                                    in the middle of text the medical. </p>
+
+                                                <h3>💪 <a>Shoulder Replacement</a></h3>
+
+                                                <br>
+
+                                                <p style="text-align: justify;">
+
+                                                    Shoulder replacement is a surgical procedure in which the damaged
+                                                    shoulder joint is replaced with an artificial implant to relieve
+                                                    pain and restore arm movement. It is recommended for severe
+                                                    arthritis, fractures, or advanced joint damage that limits daily
+                                                    activities.
+
+                                                </p>
+
+                                                <h5>Benefits</h5>
+
+                                                <ul>
+                                                    <li>Reduces or eliminates shoulder pain.</li>
+                                                    <li>Restores arm mobility and function.</li>
+                                                    <li>Makes everyday activities easier.</li>
+                                                    <li>Improves quality of life and independence.</li>
+                                                </ul>
 
                                             </div>
+
                                         </div>
+
                                     </div>
-                                    <!-- smartdev_serivce_bg_05 -->
-                                    <div id="hombro" class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="service-item all_color_service  text-left  ">
+
+                                    <!-- Shoulder Arthroscopy -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+
+                                        <div class="service-item all_color_service text-left">
+
                                             <div class="service_top_image">
                                                 <img src="assets/images/artroscopia_hombro.png" alt="">
                                             </div>
-                                            <div class="text_box all_icon_color">
-                                                <!--<i class="icofont-heart-beat"></i>--->
-                                                <h3><a>Artroscopia de hombro</a></h3>
 
+                                            <div class="text_box all_icon_color">
+
+                                                <h3>💪 <a>Shoulder Arthroscopy</a></h3>
+
+                                                <br>
+
+                                                <p style="text-align: justify;">
+
+                                                    Shoulder arthroscopy is a minimally invasive procedure that uses
+                                                    a small camera and specialized instruments to diagnose and repair
+                                                    injuries inside the shoulder joint, including rotator cuff tears,
+                                                    labrum injuries, tendon problems, and ligament damage.
+
+                                                </p>
+
+                                                <h5>Benefits</h5>
+
+                                                <ul>
+                                                    <li>Small incisions with minimal scarring.</li>
+                                                    <li>Less pain after the procedure.</li>
+                                                    <li>Faster recovery than traditional surgery.</li>
+                                                    <li>Restores shoulder mobility and function.</li>
+                                                    <li>Helps you return sooner to daily and sports activities.</li>
+                                                </ul>
 
                                             </div>
+
                                         </div>
+
                                     </div>
                                     <!-- smartdev_serivce_bg_06 -->
                                 </div>
                             </div>
                         </div>
-                                   
+
                         <div class="witr_adv_tab_content">
                             <div class="tab-content">
                                 <div class="tab-pane fade epo-4931cc5 active show" id="tx_tab_01">
@@ -414,7 +509,8 @@
                                                                                 <li></i>Bilingual staff</li>
                                                                                 <li></i>Treatment within just a few weeks
                                                                                 </li>
-                                                                                <li></i>A fraction of the cost compared to the U.S.
+                                                                                <li></i>A fraction of the cost compared to
+                                                                                    the U.S.
                                                                                 </li>
                                                                             </ul>
                                                                         </div>
@@ -425,16 +521,17 @@
                                                     </div>
                                                 </div>
                                                 <div class="tab_title">
-                                                    <h2>Surgery with Dr. Daniel can cost up to 70% less than the same procedure in the U.S.</h2>
+                                                    <h2>Surgery with Dr. Daniel can cost up to 70% less than the same
+                                                        procedure in the U.S.</h2>
                                                 </div>
                                                 <div class="witr_button_area">
                                                     <div class="witr_btn_style mr">
                                                         <div class="witr_btn_sinner">
                                                             <!--<a href="index-2.html#" class="witr_btn">Read More Contant
-                                                                <div class="pluse_btn_icon">
-                                                                    <span class="fas fa-arrow-right"></span>
-                                                                </div>
-                                                            </a>-->
+                                                                    <div class="pluse_btn_icon">
+                                                                        <span class="fas fa-arrow-right"></span>
+                                                                    </div>
+                                                                </a>-->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -445,12 +542,12 @@
                                                 <div class="witr_videobg_image">
                                                     <img src="assets/images/hospital_ortopedia.png" alt="">
                                                     <!--<div class="play-overlay ">
-                                                        <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                            data-vbtype="youtube" data-autoplay="true"
-                                                            href="#">
-                                                            <i class="fas fa-play"></i>
-                                                        </a>
-                                                    </div>-->
+                                                            <a class="video-popup video-vemo-icon venobox vbox-item"
+                                                                data-vbtype="youtube" data-autoplay="true"
+                                                                href="#">
+                                                                <i class="fas fa-play"></i>
+                                                            </a>
+                                                        </div>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -462,13 +559,13 @@
                                             <div class="witr_play_vi witr_all_color_v">
                                                 <div class="witr_videobg_image">
                                                     <img src="assets/images/hospital_ortopedia.png" alt="">
-                                                   <!-- <div class="play-overlay ">
-                                                        <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                            target="_blank" data-vbtype="youtube" data-autoplay="true"
-                                                            href="#">
-                                                            <i class="fas fa-play"></i>
-                                                        </a>
-                                                    </div>-->
+                                                    <!-- <div class="play-overlay ">
+                                                            <a class="video-popup video-vemo-icon venobox vbox-item"
+                                                                target="_blank" data-vbtype="youtube" data-autoplay="true"
+                                                                href="#">
+                                                                <i class="fas fa-play"></i>
+                                                            </a>
+                                                        </div>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -481,26 +578,27 @@
             </div>
         </div>
     </div>
-    
 
-	<!-- smartdev_video_area -->
-<div class="smartdev_video_area">
-	<div class="container">	
-		<div class="row">
-			<div class="col-lg-12">				
-				<div class="witr_play_vi witr_all_color_v">
-					<div class="witr_videobg_image">
-						<div class="play-overlay ">
-							<a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="#">
-								<i class="fas fa-play"></i>					
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+
+    <!-- smartdev_video_area -->
+    <div class="smartdev_video_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="witr_play_vi witr_all_color_v">
+                        <div class="witr_videobg_image">
+                            <div class="play-overlay ">
+                                <a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube"
+                                    data-autoplay="true" href="#">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
