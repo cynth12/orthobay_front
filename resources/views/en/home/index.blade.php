@@ -274,19 +274,37 @@
                         </div>
                         <!-- Tab panes -->
                   <!-- smartdev_serivce_bg_area -->
-                        <div id="knee" class="smartdev_serivce_bg_area serivce_bg">
+                        <div id="rodilla" class="smartdev_serivce_bg_area serivce_bg">
                             <div class="container">
                                 <div class="row service_top">
                                     <!-- smartdev_serivce_bg_01 -->
                                     <div class="col-lg-4 col-md-6 col-sm-12">
                                         <div class="service-item all_color_service  text-left  ">
                                             <div class="service_top_image">
-                                                <img src="assets/images/service-1.png" alt="">
+                                                <img src="assets/images/protesis_rodilla.png" alt="">
                                             </div>
                                             <div class="text_box all_icon_color">
-                                                <i class="icofont-paralysis-disability"></i>
-                                                <h3><a>Knee Replacement</a></h3>
-                                                <p></p>
+                                               
+                                                <h3><a>Protesis de rodilla</a></h3>
+                                                <p>
+                                                <p style="text-align: justify;">
+                                                    🦵 <strong>Prótesis de Rodilla</strong><br><br>
+
+                                                    La prótesis de rodilla es una cirugía en la que se reemplaza la parte
+                                                    desgastada de la articulación por un implante diseñado para devolver el
+                                                    movimiento y disminuir el dolor. Se recomienda cuando el desgaste o la
+                                                    artritis impiden caminar con normalidad.
+                                                </p>
+
+                                                <h5>Beneficios</h5>
+
+                                                <ul>
+                                                    <li>Alivia el dolor.</li>
+                                                    <li>Mejora la movilidad.</li>
+                                                    <li>Permite volver a caminar con mayor seguridad.</li>
+                                                    <li>Ayuda a retomar las actividades de la vida diaria.</li>
+                                                </ul>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -294,60 +312,58 @@
                                     <div class="col-lg-4 col-md-6 col-sm-12">
                                         <div class="service-item all_color_service  text-left  ">
                                             <div class="service_top_image">
-                                                <img src="assets/images/service-2.png" alt="">
+                                                <img src="assets/images/artroscopia_rodilla.png" alt="">
                                             </div>
                                             <div class="text_box all_icon_color">
-                                                <i class="icofont-brain-alt"></i>
-                                                <h3><a>Knee Arthroscopy</a></h3>
+                                                <h3><a>Artroscopia de rodilla</a></h3>
                                                 <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
                                                     in the middle of text the medical. </p>
                                                 <!--<div class="service-btn btn2">
-           <a href="#">Read More<span class="ti-arrow-right"></span></a>
-          </div>-->
+                   <a href="#">Read More<span class="ti-arrow-right"></span></a>
+                  </div>-->
                                             </div>
                                         </div>
                                     </div>
                                     <!-- smartdev_serivce_bg_03 -->
-                                    <div id="hip" class="col-lg-4 col-md-6 col-sm-12">
+                                    <div id="cadera" class="col-lg-4 col-md-6 col-sm-12">
                                         <div class="service-item all_color_service  text-left  ">
                                             <div class="service_top_image">
-                                                <img src="assets/images/service-3.png" alt="">
+                                                <img src="assets/images/protesis_cadera.png" alt="">
                                             </div>
                                             <div class="text_box all_icon_color">
-                                                <i class="icofont-doctor-alt"></i>
-                                                <h3></a>Hip Replacement</h3>
+                                               
+                                                <h3></a>Protesis de cadera</h3>
                                                 <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
                                                     in the middle of text the medical. </p>
                                             </div>
                                         </div>
                                     </div>
                                     <!-- smartdev_serivce_bg_04 -->
-                                    <div id="shoulder" class="col-lg-4 col-md-6 col-sm-12">
+                                    <div id="hombro" class="col-lg-4 col-md-6 col-sm-12">
                                         <div class="service-item all_color_service  text-left  ">
                                             <div class="service_top_image">
-                                                <img src="assets/images/service-4.png" alt="">
+                                                <img src="assets/images/protesis_hombro.png" alt="">
                                             </div>
                                             <div class="text_box all_icon_color">
-                                                <i class="icofont-ambulance-crescent"></i>
-                                                <h3><a>Shoulder Replacement</a></h3>
+                                                <!--<i class="icofont-ambulance-crescent"></i>--->
+                                                <h3><a>Protesis de hombro</a></h3>
                                                 <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
                                                     in the middle of text the medical. </p>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
                                     <!-- smartdev_serivce_bg_05 -->
-                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div id="hombro" class="col-lg-4 col-md-6 col-sm-12">
                                         <div class="service-item all_color_service  text-left  ">
                                             <div class="service_top_image">
-                                                <img src="assets/images/service-5.png" alt="">
+                                                <img src="assets/images/artroscopia_hombro.png" alt="">
                                             </div>
                                             <div class="text_box all_icon_color">
-                                                <i class="icofont-heart-beat"></i>
-                                                <h3><a>Shoulder Arthroscopy</a></h3>
-                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
-                                                    in the middle of text the medical. </p>
-                                                
+                                                <!--<i class="icofont-heart-beat"></i>--->
+                                                <h3><a>Artroscopia de hombro</a></h3>
+
+
                                             </div>
                                         </div>
                                     </div>
@@ -355,6 +371,7 @@
                                 </div>
                             </div>
                         </div>
+                                   
                         <div class="witr_adv_tab_content">
                             <div class="tab-content">
                                 <div class="tab-pane fade epo-4931cc5 active show" id="tx_tab_01">
@@ -413,11 +430,11 @@
                                                 <div class="witr_button_area">
                                                     <div class="witr_btn_style mr">
                                                         <div class="witr_btn_sinner">
-                                                            <a href="index-2.html#" class="witr_btn">Read More Contant
+                                                            <!--<a href="index-2.html#" class="witr_btn">Read More Contant
                                                                 <div class="pluse_btn_icon">
                                                                     <span class="fas fa-arrow-right"></span>
                                                                 </div>
-                                                            </a>
+                                                            </a>-->
                                                         </div>
                                                     </div>
                                                 </div>

@@ -291,11 +291,11 @@
                                                 <img src="assets/images/protesis_rodilla.png" alt="">
                                             </div>
                                             <div class="text_box all_icon_color">
-                                               
-                                                <h3><a>Protesis de rodilla</a></h3>
+
+                                                <h3>🦵<a>Protesis de rodilla</a></h3>
                                                 <p>
                                                 <p style="text-align: justify;">
-                                                    🦵 <strong>Prótesis de Rodilla</strong><br><br>
+                                                    <br>
 
                                                     La prótesis de rodilla es una cirugía en la que se reemplaza la parte
                                                     desgastada de la articulación por un implante diseñado para devolver el
@@ -319,16 +319,36 @@
                                     <div class="col-lg-4 col-md-6 col-sm-12">
                                         <div class="service-item all_color_service  text-left  ">
                                             <div class="service_top_image">
-                                                <img src="assets/images/service-2.png" alt="">
+                                                <img src="assets/images/artroscopia_rodilla.png" alt="">
                                             </div>
                                             <div class="text_box all_icon_color">
-                                                <i class="icofont-brain-alt"></i>
-                                                <h3><a>Artroscopia de rodilla</a></h3>
-                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
-                                                    in the middle of text the medical. </p>
+                                                <h3>🔍 <a>Artroscopia de rodilla</a></h3>
+                                                <p style="text-align: justify;">
+                                                    <br>
+
+                                                    La artroscopia de rodilla es un procedimiento mínimamente invasivo que
+                                                    utiliza una pequeña cámara e instrumentos especiales para diagnosticar y
+                                                    tratar
+                                                    lesiones dentro de la articulación, como daños en los meniscos,
+                                                    ligamentos o
+                                                    cartílago.
+                                                </p>
+
+                                                <h5>Beneficios</h5>
+
+                                                <ul class="list-unstyled">
+                                                    <li> Incisiones
+                                                        pequeñas y cicatrices discretas.</li>
+                                                    <li>Menor dolor
+                                                        después del procedimiento.</li>
+                                                    <li> Recuperación más
+                                                        rápida que una cirugía tradicional.</li>
+                                                    <li>Permite regresar
+                                                        antes a las actividades diarias.</li>
+                                                </ul>
                                                 <!--<div class="service-btn btn2">
-                   <a href="#">Read More<span class="ti-arrow-right"></span></a>
-                  </div>-->
+                                       <a href="#">Read More<span class="ti-arrow-right"></span></a>
+                                      </div>-->
                                             </div>
                                         </div>
                                     </div>
@@ -336,13 +356,30 @@
                                     <div id="cadera" class="col-lg-4 col-md-6 col-sm-12">
                                         <div class="service-item all_color_service  text-left  ">
                                             <div class="service_top_image">
-                                                <img src="assets/images/service-3.png" alt="">
+                                                <img src="assets/images/protesis_cadera.png" alt="">
                                             </div>
                                             <div class="text_box all_icon_color">
-                                                <i class="icofont-doctor-alt"></i>
-                                                <h3></a>Protesis de cadera</h3>
-                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
-                                                    in the middle of text the medical. </p>
+
+                                                <h3>🦴 </a>Protesis de cadera</h3>
+                                                <p style="text-align: justify;"><br>
+                                                    La prótesis de cadera es una cirugía en la que se reemplaza la
+                                                    articulación dañada por un implante artificial diseñado para eliminar el
+                                                    dolor y
+                                                    recuperar el movimiento. Se recomienda cuando el desgaste, la artritis o
+                                                    una
+                                                    lesión afectan la calidad de vida</p>
+                                                <h5>Beneficios</h5>
+
+                                                <ul class="list-unstyled">
+                                                    <li> Disminuye o
+                                                        elimina el dolor de la cadera.</li>
+                                                    <li> Mejora la
+                                                        movilidad y la estabilidad al caminar.</li>
+                                                    <li> Permite retomar
+                                                        las actividades diarias con mayor comodidad.</li>
+                                                    <li> Mejora la
+                                                        calidad de vida y la independencia del paciente.</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -350,13 +387,31 @@
                                     <div id="hombro" class="col-lg-4 col-md-6 col-sm-12">
                                         <div class="service-item all_color_service  text-left  ">
                                             <div class="service_top_image">
-                                                <img src="assets/images/service-4.png" alt="">
+                                                <img src="assets/images/protesis_hombro.png" alt="">
                                             </div>
                                             <div class="text_box all_icon_color">
-                                                <i class="icofont-ambulance-crescent"></i>
-                                                <h3><a>Protesis de hombro</a></h3>
-                                                <p>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
-                                                    in the middle of text the medical. </p>
+                                                <!--<i class="icofont-ambulance-crescent"></i>--->
+                                                <h3>💪<a>Protesis de hombro</a></h3><br>
+                                                <p style="text-align: justify;">La prótesis de hombro es una cirugía en la que se reemplaza la
+                                                    articulación
+                                                    dañada por un implante artificial para aliviar el dolor y recuperar el
+                                                    movimiento
+                                                    del brazo. Se recomienda cuando existe un desgaste severo, artritis o
+                                                    fracturas
+                                                    que limitan las actividades diarias y afectan la calidad de vida.</p>
+
+                                                <h5>Beneficios</h5>
+
+                                                <ul class="list-unstyled">
+                                                    <li> Reduce o elimina
+                                                        el dolor del hombro.</li>
+                                                    <li> Recupera la
+                                                        movilidad y la función del brazo.</li>
+                                                    <li> Facilita
+                                                        realizar actividades cotidianas con mayor comodidad.</li>
+                                                    <li> Mejora la
+                                                        calidad de vida y la independencia del paciente.</li>
+                                                </ul>
 
                                             </div>
                                         </div>
@@ -365,12 +420,31 @@
                                     <div id="hombro" class="col-lg-4 col-md-6 col-sm-12">
                                         <div class="service-item all_color_service  text-left  ">
                                             <div class="service_top_image">
-                                                <img src="assets/images/service-5.png" alt="">
+                                                <img src="assets/images/artroscopia_hombro.png" alt="">
                                             </div>
                                             <div class="text_box all_icon_color">
-                                                <i class="icofont-heart-beat"></i>
-                                                <h3><a>Artroscopia de hombro</a></h3>
+                                                <!--<i class="icofont-heart-beat"></i>--->
+                                                <h3>💪 <a>Artroscopia de hombro</a></h3><br>
+                                                <p style="text-align: justify;">
+                                                   
 
+                                                    La artroscopia de hombro es un procedimiento mínimamente invasivo que
+                                                    utiliza
+                                                    una pequeña cámara e instrumentos especializados para diagnosticar y
+                                                    reparar
+                                                    lesiones dentro de la articulación, como desgarros del manguito rotador,
+                                                    lesiones del labrum, tendinitis o problemas de los ligamentos.
+                                                </p>
+
+                                                <h5>Beneficios</h5>
+
+                                                <ul>
+                                                    <li>Incisiones pequeñas y cicatrices discretas.</li>
+                                                    <li>Menor dolor después del procedimiento.</li>
+                                                    <li>Recuperación más rápida que una cirugía convencional.</li>
+                                                    <li>Permite recuperar la movilidad y la función del hombro.</li>
+                                                    <li>Facilita el regreso a las actividades diarias y deportivas.</li>
+                                                </ul>
 
                                             </div>
                                         </div>
@@ -444,11 +518,11 @@
                                                 <div class="witr_button_area">
                                                     <div class="witr_btn_style mr">
                                                         <div class="witr_btn_sinner">
-                                                            <a href="index-2.html#" class="witr_btn">Leer mas
-                                                                <div class="pluse_btn_icon">
-                                                                    <span class="fas fa-arrow-right"></span>
-                                                                </div>
-                                                            </a>
+                                                            <!--<a href="index-2.html#" class="witr_btn">Leer mas
+                                                                                    <div class="pluse_btn_icon">
+                                                                                        <span class="fas fa-arrow-right"></span>
+                                                                                    </div>
+                                                                                </a>-->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -459,12 +533,12 @@
                                                 <div class="witr_videobg_image">
                                                     <img src="assets/images/hospital_ortopedia.png" alt="">
                                                     <!--<div class="play-overlay ">
-                                                                    <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                                        data-vbtype="youtube" data-autoplay="true"
-                                                                        href="#">
-                                                                        <i class="fas fa-play"></i>
-                                                                    </a>
-                                                                </div>-->
+                                                                                        <a class="video-popup video-vemo-icon venobox vbox-item"
+                                                                                            data-vbtype="youtube" data-autoplay="true"
+                                                                                            href="#">
+                                                                                            <i class="fas fa-play"></i>
+                                                                                        </a>
+                                                                                    </div>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -478,12 +552,12 @@
                                                 <div class="witr_videobg_image">
                                                     <img src="assets/images/hospital_ortopedia.png" alt="">
                                                     <!--<div class="play-overlay ">
-                                                                    <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                                        data-vbtype="youtube" data-autoplay="true"
-                                                                        href="#">
-                                                                        <i class="fas fa-play"></i>
-                                                                    </a>
-                                                                </div>-->
+                                                                                        <a class="video-popup video-vemo-icon venobox vbox-item"
+                                                                                            data-vbtype="youtube" data-autoplay="true"
+                                                                                            href="#">
+                                                                                            <i class="fas fa-play"></i>
+                                                                                        </a>
+                                                                                    </div>-->
                                                 </div>
                                             </div>
                                         </div>
