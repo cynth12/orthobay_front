@@ -22,15 +22,14 @@
 						<h2 class="widget-title">Servicios</h2>
 						<div class="menu-help-link-container">
 							<ul class="menu">
-								<li><a href="index.html#">– Cirugia de rodilla</a></li>
-								<li><a href="index.html#">– Cirugia de hombro</a></li>
-								<li><a href="index.html#">– Cirugia de cadera</a></li>
-								<li><a href="index.html#">– Cirugia de columna</a></li>
+								<li><a href="#rodilla">– Cirugia de rodilla</a></li>
+								<li><a href="#hombro">– Cirugia de hombro</a></li>
+								<li><a href="#cadera">– Cirugia de cadera</a></li>
 							</ul>
 						</div>
 					</div>	
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
+				<div id="contacto" class="col-lg-3 col-md-6 col-sm-12">
 					<div class="widget about_us">
 						<h2 class="widget-title">Contacto</h2>	
 						<div class="about-footer">
@@ -108,9 +107,8 @@
 				<div class="col-lg-6 col-md-6  col-sm-12">				
 					<div class="footer-menu">
 						<ul class="text-right">
-							<li><a href="index.html#">Inicio</a></li>
-							<li><a href="index.html#">Nosotros</a></li>
-							<li><a href="index.html#">Contacto</a></li>
+							<li><a href="#inicio">Inicio</a></li>
+							<li><a href="#nosotros">Nosotros</a></li>
 						</ul> 				
 					</div>
 				</div>

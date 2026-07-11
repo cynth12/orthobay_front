@@ -24,7 +24,7 @@
                             <div class="slider_btn">
                                 <div class="witr_btn_style">
                                     <div class="witr_btn_sinner">
-                                        <a class="witr_btn" href="index-2.html#">Make Appointment</a>
+                                        <a class="witr_btn" href="#contacto">Make Appointment</a>
                                     </div>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@
                             <div class="slider_btn">
                                 <div class="witr_btn_style">
                                     <div class="witr_btn_sinner">
-                                        <a class="witr_btn" href="index-2.html#">Make Appointment</a>
+                                        <a class="witr_btn" href="#contacto">Make Appointment</a>
                                     </div>
                                 </div>
                             </div>

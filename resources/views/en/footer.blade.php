@@ -23,15 +23,14 @@
 						<h2 class="widget-title">Quick Links</h2>
 						<div class="menu-help-link-container">
 							<ul  class="menu">
-								<li><a href="index.html#">– Knee Surgery</a></li>
-								<li><a href="index.html#">– Shoulder Surgery</a></li>
-								<li><a href="index.html#">– Hip Surgery</a></li>
-								<li><a href="index.html#">– Back Surgery</a></li>
+								<li><a href="#knee">– Knee Surgery</a></li>
+								<li><a href="#shoulder">– Shoulder Surgery</a></li>
+								<li><a href="#hip">– Hip Surgery</a></li>
 							</ul>
 						</div>
 					</div>	
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
+				<div id="contacto" class="col-lg-3 col-md-6 col-sm-12">
 					<div class="widget about_us">
 						<h2 class="widget-title">Our Contacts</h2>	
 						<div class="about-footer">
@@ -107,9 +106,8 @@
 				<div class="col-lg-6 col-md-6  col-sm-12">				
 					<div class="footer-menu">
 						<ul class="text-right">
-							<li><a href="index.html#">Home</a></li>
-							<li><a href="index.html#">About</a></li>
-							<li><a href="index.html#">Contact</a></li>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
 						</ul> 				
 					</div>
 				</div>
