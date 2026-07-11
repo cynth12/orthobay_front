@@ -7,7 +7,7 @@
                 <div class="col-xs-12 col-lg-9 col-xl-9 col-md-9 col-sm-12">
                     <div class="top-address text-left">
                         <p>
-                            <span><i class="fas fa-home"></i>Puerto Vallarta, Jalisco</span>
+                            <span><i class="fas fa-home"></i>Puerto Vallarta, México</span>
                             <a href="index.html#"><i class="fas fa-envelope"></i>info@orthobay.com</a>
                         </p>
                     </div>

@@ -15,7 +15,7 @@
 			background-position: right center; background-color: #dff3f2; ">
                     <div class="witr_sw_text_area text-left">
                         <div class="witr_swiper_content ">
-                            <h1>Welcome To Ortobay! </h1>
+                            <h1>Welcome To Orthobay! </h1>
                             <h2>Orthopedic Surgery in Puerto Vallarta, Mexico</h2>
                             <p>We take pride in welcoming patients from around the globe
                                 to experience world-class orthopedic care
