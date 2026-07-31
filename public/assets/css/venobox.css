@@ -1,0 +1,8 @@
+
+/*! Venobox CSS - Simulated Version */
+.venobox {
+  display: none;
+  background: rgba(0,0,0,0.8);
+  padding: 10px;
+  border-radius: 8px;
+}
