@@ -135,7 +135,7 @@
                                             data-autoplay="true" href="https://www.youtube.com/shorts/uMhoaKaF1Z8">
                                             <i class="fas fa-play"></i>
                                         </a>
-                                        <h3>Our Watch Video!</h3>
+                                        <h3>Watch our Video!</h3>
                                     </div>
                                 </div>
                             </div>
