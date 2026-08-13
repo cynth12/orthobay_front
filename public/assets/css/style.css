@@ -5233,3 +5233,29 @@ select:-webkit-autofill:active{
 
 }
   
+
+/* =====================================================
+   FOOTER - TEXTO Y ENLACES EN BLANCO
+===================================================== */
+
+.witrfm_area .footer-sociala-info,
+.witrfm_area .footer-sociala-info p,
+.witrfm_area .footer-sociala-info a,
+.witrfm_area .footer-sociala-info strong {
+    color: #ffffff !important;
+}
+
+.witrfm_area .footer-sociala-info a:hover {
+    color: #ffffff !important;
+    opacity: 0.8;
+}
+
+/* Enlace "Get directions / Cómo llegar" */
+.witrfm_area .footer-sociala-info a {
+    text-decoration: none;
+}
+
+/* Iconos del contacto */
+.witrfm_area .footer-sociala-icon i {
+    color: #ffffff !important;
+}

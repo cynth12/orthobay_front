@@ -15,11 +15,17 @@
 			background-position: right center; background-color: #dff3f2; ">
                     <div class="witr_sw_text_area text-left">
                         <div class="witr_swiper_content ">
-                            <h1>Welcome To Orthobay! </h1>
-                            <h2>Orthopedic Surgery in Puerto Vallarta, Mexico</h2>
-                            <p>We take pride in welcoming patients from around the globe
-                                to experience world-class orthopedic care
-                                with Dr. Daniel Ponce in Puerto Vallarta.</p>
+                            <h1>
+                            Orthopedic Surgeon in Puerto Vallarta
+                        </h1>
+
+                        <h2>
+                            Dr. Daniel Ponce Covarrubias
+                        </h2>
+                            <p> Specialized orthopedic care including joint
+                            replacement and arthroscopic surgery of the knee,
+                            hip, and shoulder for local and international
+                            patients in Puerto Vallarta and Nuevo Nayarit.</p>
                             <!-- btn gradient style -->
                             <div class="slider_btn">
                                 <div class="witr_btn_style">
@@ -36,10 +42,18 @@
 			background-position: right center; background-color: #dff3f2;">
                     <div class="witr_sw_text_area text-left">
                         <div class="witr_swiper_content ">
-                            <h1>Quality Orthopedic Care</h1>
-                            <h2>Orthopedic Surgery in Puerto Vallarta, Mexico</h2>
-                            <p>Whether you're a local resident or visiting from abroad, you’ll receive professional,
-                                personalized care tailored to your unique needs</p>
+                             <h2>
+                            Specialized Orthopedic Care
+                        </h2>
+
+                        <h3>
+                            Knee, Hip and Shoulder Surgery in Puerto Vallarta
+                        </h3>
+
+                            <p>Receive professional and personalized orthopedic
+                            care with treatment options adapted to your needs,
+                            whether you live in the region or are traveling
+                            to Mexico from abroad.</p>
                             <!-- btn gradient style -->
                             <div class="slider_btn">
                                 <div class="witr_btn_style">
@@ -116,114 +130,309 @@
     </div>
 
     <!-- smartdev_about_area -->
-    <div id="about" class="smartdev_about_area">
-        <div class="container">
-            <div class="row about_area">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="single_image_area">
-                        <div class="single_image  ">
-                            <img src="assets/images/doctor_1.png" alt="">
-                        </div>
+{{-- =========================================================
+    ABOUT DR. DANIEL PONCE
+========================================================== --}}
+
+<div id="about" class="smartdev_about_area">
+
+    <div class="container">
+
+        <div class="row about_area">
+
+
+            {{-- DOCTOR PHOTO --}}
+            <div class="col-lg-6 col-md-12 col-sm-12">
+
+                <div class="single_image_area">
+
+                    <div class="single_image">
+
+                        <img
+                            src="{{ asset('assets/images/doctor_1.png') }}"
+                            alt="Dr. Daniel Ponce Covarrubias, orthopedic surgeon in Puerto Vallarta and Nuevo Nayarit"
+                        >
+
                     </div>
-                    <div class="row video_area">
-                        <div class="col-lg-6 col-md-6 col-sm-12"></div>
-                        <div class="col-lg-6 col-md-12 col-sm-12">
-                            <div class="video-part">
-                                <div class="video-overlay witr_all_color_v">
-                                    <div class="video-item text-center">
-                                        <a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube"
-                                            data-autoplay="true" href="https://www.youtube.com/shorts/uMhoaKaF1Z8">
-                                            <i class="fas fa-play"></i>
-                                        </a>
-                                        <h3>Watch our Video!</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="witr_section_right">
-                        <div class="witr_section_title">
-                            <div class="witr_section_title_inner text-justify">
-                                <h2>Meet the Doctor</h2>
-                                <h3>Daniel Ponce Covarrubias</h3>
-                                <p>Dr. Daniel Ponce is originally from Guadalajara, Mexico.
-                                    He completed his medical degree at the University of Guadalajara, followed by specialty
-                                    training at the Mexican Social Security Institute (IMSS),
-                                    with rotations in Mexico City, the United States, and Latin America. </p>
-                            </div>
-                        </div>
-                        <div class="em-service2 sleft all_color_service">
-                            <div class="em_service_content ">
-                                <div class="em_single_service_text">
-                                    <div class="service_top_image"></div>
-                                    <div class="text_box witr_s_flex">
-                                        <div class="service_top_text all_icon_color">
-                                        </div>
-                                        <div class="em-service-inner">
-                                            <div class="em-service-title">
-                                                <h3>Your Trusted Expert in Orthopedic Surgery</h3>
-                                            </div>
-                                            <div class="em-service-desc text-justify">
-                                                <p>His mission is to always provide the best patient care with kindness,
-                                                    responsibility, and commitment, delivering excellence in every surgery.
-                                                    With over 10 years of experience, he has specialized in joint
-                                                    replacement
-                                                    and arthroscopic surgery. His current medical practice is
-                                                    focused on medical tourism, making world-class care more accessible to
-                                                    international patients. </p>
-                                            </div>
-                                        </div>
-                                    </div>
+
+
+                <div class="row video_area">
+
+                    <div class="col-lg-6 col-md-6 col-sm-12"></div>
+
+
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+
+                        <div class="video-part">
+
+                            <div class="video-overlay witr_all_color_v">
+
+                                <div class="video-item text-center">
+
+                                    <a
+                                        class="video-popup video-vemo-icon venobox vbox-item"
+                                        data-vbtype="youtube"
+                                        data-autoplay="true"
+                                        href="https://www.youtube.com/shorts/uMhoaKaF1Z8"
+                                        aria-label="Watch a video about Dr. Daniel Ponce"
+                                    >
+                                        <i class="fas fa-play"></i>
+                                    </a>
+
+                                    <h3>
+                                        Meet Dr. Daniel Ponce
+                                    </h3>
+
                                 </div>
+
                             </div>
+
                         </div>
-                        <div class="em-service2 sleft all_color_service">
-                            <div class="em_service_content ">
-                                <div class="em_single_service_text width_height_link_0 ">
-                                    <div class="service_top_image"></div>
-                                    <div class="text_box witr_s_flex">
-                                        <div class="service_top_text all_icon_color">
-                                            <div class="em-service-icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                        </div>
-                                        <div class="em-service-inner">
-                                            <div class="em-service-title"></div>
-                                            <div class="em-service-desc">
-                                                <p>Board Certified by the Mexican Orthopedic Council</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="em-service2 sleft all_color_service">
-                            <div class="em_service_content ">
-                                <div class="em_single_service_text width_height_link_0 ">
-                                    <div class="service_top_image"></div>
-                                    <div class="text_box witr_s_flex">
-                                        <div class="service_top_text all_icon_color">
-                                            <div class="em-service-icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                        </div>
-                                        <div class="em-service-inner">
-                                            <div class="em-service-title"></div>
-                                            <div class="em-service-desc">
-                                                <p>Active member of Femecot and speaker at various national congresses</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
+
                 </div>
+
             </div>
+
+
+
+            {{-- DOCTOR INFORMATION --}}
+            <div class="col-lg-6 col-md-12 col-sm-12">
+
+                <div class="witr_section_right">
+
+
+                    <div class="witr_section_title">
+
+                        <div class="witr_section_title_inner text-justify">
+
+                            <h2>
+                                Dr. Daniel Ponce Covarrubias
+                            </h2>
+
+                            <h3>
+                                Board-Certified Orthopedic Surgeon
+                            </h3>
+
+                            <p>
+                                Dr. Daniel Ponce Covarrubias is a physician
+                                specializing in orthopedics and traumatology.
+                                He completed his medical training at the
+                                University of Guadalajara and later completed
+                                his specialty training within the Mexican
+                                Social Security Institute (IMSS), with
+                                rotations in Mexico City, the United States,
+                                and Latin America.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    {{-- EXPERIENCE --}}
+                    <div class="em-service2 sleft all_color_service">
+
+                        <div class="em_service_content">
+
+                            <div class="em_single_service_text">
+
+                                <div class="service_top_image"></div>
+
+
+                                <div class="text_box witr_s_flex">
+
+                                    <div class="service_top_text all_icon_color"></div>
+
+
+                                    <div class="em-service-inner">
+
+                                        <div class="em-service-title">
+
+                                            <h3>
+                                                Experience in Orthopedic Surgery
+                                            </h3>
+
+                                        </div>
+
+
+                                        <div class="em-service-desc text-justify">
+
+                                            <p>
+                                                With more than 10 years of
+                                                experience, his practice has
+                                                focused on joint replacement
+                                                surgery and arthroscopic surgery,
+                                                including procedures of the knee,
+                                                hip, and shoulder.
+                                            </p>
+
+                                            <p>
+                                                He currently provides care to
+                                                local and international patients
+                                                in Puerto Vallarta and Nuevo
+                                                Nayarit, with an emphasis on
+                                                personalized care, safety, and
+                                                functional recovery.
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    {{-- CERTIFICATIONS AND TRAINING --}}
+                    <div class="em-service2 sleft all_color_service">
+
+                        <div class="em_service_content">
+
+                            <div class="em_single_service_text width_height_link_0">
+
+                                <div class="service_top_image"></div>
+
+
+                                <div class="text_box witr_s_flex">
+
+                                    <div class="service_top_text all_icon_color">
+
+                                        <div class="em-service-icon">
+
+                                            <i class="fas fa-check"></i>
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="em-service-inner">
+
+                                        <div class="em-service-title">
+
+                                            <h3>
+                                                Certifications and Training
+                                            </h3>
+
+                                        </div>
+
+
+                                        <div class="em-service-desc">
+
+                                            <p>
+                                                Certified by the Mexican Board
+                                                of Orthopedics and Traumatology.
+                                            </p>
+
+                                            <p>
+                                                <strong>Medical License:</strong>
+                                                9390291
+                                                (University of Guadalajara)
+                                            </p>
+
+                                            <p>
+                                                <strong>Specialty License:</strong>
+                                                11578894
+                                                (University of Guanajuato)
+                                            </p>
+
+                                            <p>
+                                                <strong>Mexican Board of
+                                                Orthopedics and Traumatology
+                                                Certification:</strong>
+                                                18/4860/24
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    {{-- MEDICAL ASSOCIATIONS --}}
+                    <div class="em-service2 sleft all_color_service">
+
+                        <div class="em_service_content">
+
+                            <div class="em_single_service_text width_height_link_0">
+
+                                <div class="service_top_image"></div>
+
+
+                                <div class="text_box witr_s_flex">
+
+                                    <div class="service_top_text all_icon_color">
+
+                                        <div class="em-service-icon">
+
+                                            <i class="fas fa-check"></i>
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="em-service-inner">
+
+                                        <div class="em-service-title">
+
+                                            <h3>
+                                                Medical Associations
+                                            </h3>
+
+                                        </div>
+
+
+                                        <div class="em-service-desc">
+
+                                            <p>
+                                                Active member of FEMECOT and
+                                                AMECRA. He has also participated
+                                                as a speaker at national medical
+                                                conferences.
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
         </div>
+
     </div>
+
+</div>
 
 
     <!-- smartdev_tab_contant_area -->

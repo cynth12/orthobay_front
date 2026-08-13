@@ -10,16 +10,27 @@ class SetLocale
 {
     public function handle(Request $request, Closure $next)
     {
-        // Detectamos el idioma desde la URL: /es, /en
-        $locale = $request->segment(1);
+        // Rutas que no necesitan idioma
+        $excludedRoutes = [
+            'sitemap.xml',
+            'robots.txt',
+        ];
 
-        if (in_array($locale, ['en', 'es'])) {
-            App::setLocale($locale);
-        } else {
-            // Si no viene idioma, redirigimos al idioma por defecto
-            return redirect('/en'); // o '/es' si prefieres
+        $firstSegment = $request->segment(1);
+
+        // Si es una ruta técnica, continúa sin redirigir
+        if (in_array($firstSegment, $excludedRoutes)) {
+            return $next($request);
         }
 
-        return $next($request);
+        // Detectamos idioma desde la URL: /es o /en
+        if (in_array($firstSegment, ['en', 'es'])) {
+            App::setLocale($firstSegment);
+
+            return $next($request);
+        }
+
+        // Cualquier otra ruta sin idioma se manda a inglés
+        return redirect('/en');
     }
 }

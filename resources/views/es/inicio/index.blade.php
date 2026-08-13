@@ -15,10 +15,12 @@
               background-position: right center; background-color: #dff3f2;">
                     <div class="witr_sw_text_area text-left">
                         <div class="witr_swiper_content ">
-                            <h1>Bienvenidos a Orthobay!</h1>
-                            <h2>Cirugía Ortopédica en Puerto Vallarta, México</h2>
-                            <p>Nos enorgullece dar la bienvenida a pacientes de todo el mundo para experimentar atención
-                                ortopédica de clase mundial con el Dr. Daniel Ponce en Puerto Vallarta</p>
+                            <h1>Cirujano Ortopedista en Puerto Vallarta</h1>
+                            <h2> Dr. Daniel Ponce Covarrubias</h2>
+                            <p>Atención especializada en cirugía ortopédica,
+                            reemplazo articular y artroscopia de rodilla,
+                            cadera y hombro para pacientes locales e
+                            internacionales en Puerto Vallarta y Nuevo Nayarit</p>
                             <!-- btn gradient style -->
                             <div class="slider_btn">
                                 <div class="witr_btn_style">
@@ -35,10 +37,14 @@
 				background-position: right center; background-color: #dff3f2;">
                     <div class="witr_sw_text_area text-left">
                         <div class="witr_swiper_content ">
-                            <h1>Calidad en Atención Ortopédica</h1>
-                            <h2>Cirugía Ortopédica en Puerto Vallarta, México</h2>
-                            <p>Ya sea que vivas en Puerto Vallarta o estés de visita desde el extranjero,
-                                recibirás atención profesional y personalizada adaptada a tus necesidades únicas.</p>
+                            <h2>Atención Ortopédica Especializada</h2>
+                             <h3>
+                            Cirugía de rodilla, cadera y hombro en Puerto Vallarta
+                            </h3>
+                            <p>Recibe atención profesional y personalizada con
+                            opciones de tratamiento adaptadas a tus necesidades,
+                            ya sea que vivas en la región o visites México
+                            desde el extranjero.</p>
                             <!-- btn gradient style -->
                             <div class="slider_btn">
                                 <div class="witr_btn_style">
@@ -123,7 +129,9 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="single_image_area">
                         <div class="single_image  ">
-                            <img src="assets/images/doctor_1.png" alt="">
+                            <img src="assets/images/doctor_1.png" 
+                            alt="Dr. Daniel Ponce Covarrubias, cirujano ortopedista 
+                            en Puerto Vallarta y Nuevo Nayarit">
                         </div>
                     </div>
                     <div class="row video_area">
@@ -132,11 +140,16 @@
                             <div class="video-part">
                                 <div class="video-overlay witr_all_color_v">
                                     <div class="video-item text-center">
-                                        <a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube"
-                                            data-autoplay="true" href="https://www.youtube.com/shorts/uMhoaKaF1Z8">
-                                            <i class="fas fa-play"></i>
-                                        </a>
-                                        <h3>Mira nuestro Video! </h3>
+                                         <a
+                                        class="video-popup video-vemo-icon venobox vbox-item"
+                                        data-vbtype="youtube"
+                                        data-autoplay="true"
+                                        href="https://www.youtube.com/shorts/uMhoaKaF1Z8"
+                                        aria-label="Ver video del Dr. Daniel Ponce"
+                                    >
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                        <h3> Conoce al Dr. Daniel Ponce </h3>
                                     </div>
                                 </div>
                             </div>
@@ -147,13 +160,15 @@
                     <div class="witr_section_right">
                         <div class="witr_section_title">
                             <div class="witr_section_title_inner text-justify">
-                                <h2>Conoce al doctor</h2>
-                                <h3>Daniel Ponce Covarrubias</h3>
-                                <p>El doctor Daniel Ponce es originario de la ciudad de Guadalajara, México,
-                                    su formación médica la realizó en la Universidad de Guadalajara y
-                                    posteriormente sus estudios de especialidad los realizó
-                                    dentro del Instituto Mexicano del Seguro Social (IMSS),
-                                    rotando en Ciudad de México así como en USA y Latinoamérica.
+                                <h2>Dr. Daniel Ponce Covarrubias</h2>
+                                <h3> Cirujano Ortopedista Certificado</h3>
+                                <p> El Dr. Daniel Ponce Covarrubias es médico
+                                especialista en ortopedia y traumatología.
+                                Realizó su formación médica en la Universidad
+                                de Guadalajara y posteriormente cursó su
+                                especialidad dentro del Instituto Mexicano
+                                del Seguro Social (IMSS), con rotaciones en
+                                Ciudad de México, Estados Unidos y Latinoamérica.
                                 </p>
                             </div>
                         </div>
@@ -166,17 +181,26 @@
                                         </div>
                                         <div class="em-service-inner">
                                             <div class="em-service-title">
-                                                <h3>Tu Experto de Confianza en Cirugía Ortopédica</h3>
+                                                <h3>Experiencia en cirugía ortopédica</h3>
                                             </div>
                                             <div class="em-service-desc text-justify">
-                                                <p>Su visión es siempre ofrecer la mejor atención para el paciente,
-                                                    bajo un esquema de amabilidad, responsabilidad y compromiso y dar lo
-                                                    mejor en cada cirugía.
-                                                    Durante su experiencia de más de 10 años se ha especializado en cirugía
-                                                    de reemplazo articular así como cirugía artroscopica, y actualmente
-                                                    su práctica médica está enfocada
-                                                    al turismo médico y ampliar sus conocimientos a la población mundial a
-                                                    costos accesibles!.</p>
+                                                 <p>
+                                                Con más de 10 años de experiencia,
+                                                su práctica se ha enfocado en
+                                                cirugía de reemplazo articular y
+                                                cirugía artroscópica, incluyendo
+                                                procedimientos de rodilla, cadera
+                                                y hombro.
+                                            </p>
+
+                                            <p>
+                                                Actualmente atiende pacientes
+                                                locales e internacionales en
+                                                Puerto Vallarta y Nuevo Nayarit,
+                                                con un enfoque en atención
+                                                personalizada, seguridad y
+                                                recuperación funcional.
+                                            </p>
                                             </div>
                                         </div>
                                     </div>
@@ -194,42 +218,111 @@
                                             </div>
                                         </div>
                                         <div class="em-service-inner">
-                                            <div class="em-service-title"></div>
-                                            <div class="em-service-desc">
-                                                <p>El Dr Ponce es un médico certificado ante el consejo Mexicano de
-                                                    Ortopedia</p>
-                                            </div>
+
+                                        <div class="em-service-title">
+
+                                            <h3>
+                                                Certificaciones y formación
+                                            </h3>
+
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="em-service2 sleft all_color_service">
-                            <div class="em_service_content ">
-                                <div class="em_single_service_text width_height_link_0 ">
-                                    <div class="service_top_image"></div>
-                                    <div class="text_box witr_s_flex">
-                                        <div class="service_top_text all_icon_color">
-                                            <div class="em-service-icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
+                                        <div class="em-service-desc">
+
+                                            <p>
+                                                Médico certificado por el
+                                                Consejo Mexicano de Ortopedia
+                                                y Traumatología.
+                                            </p>
+
+                                            <p>
+                                                <strong>Cédula Profesional:</strong>
+                                                9390291
+                                                (Universidad de Guadalajara)
+                                            </p>
+
+                                            <p>
+                                                <strong>Cédula de Especialidad:</strong>
+                                                11578894
+                                                (Universidad de Guanajuato)
+                                            </p>
+
+                                            <p>
+                                                <strong>Certificación del Consejo Mexicano
+                                                de Ortopedia y Traumatología:</strong>
+                                                18/4860/24
+                                            </p>
+
                                         </div>
-                                        <div class="em-service-inner">
-                                            <div class="em-service-title"></div>
-                                            <div class="em-service-desc">
-                                                <p>Miembro activo de Femecot y ha sido ponente en varios congresos
-                                                    nacionales. </p>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                        <div class="em-service2 sleft all_color_service">
+
+                        <div class="em_service_content">
+
+                            <div class="em_single_service_text width_height_link_0">
+
+                                <div class="service_top_image"></div>
+
+
+                                <div class="text_box witr_s_flex">
+
+                                    <div class="service_top_text all_icon_color">
+
+                                        <div class="em-service-icon">
+
+                                            <i class="fas fa-check"></i>
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="em-service-inner">
+
+                                        <div class="em-service-title">
+
+                                            <h3>
+                                                Asociaciones médicas
+                                            </h3>
+
+                                        </div>
+
+
+                                        <div class="em-service-desc">
+
+                                            <p>
+                                                Miembro activo de FEMECOT y
+                                                socio de AMECRA. Ha participado
+                                                como ponente en congresos
+                                                médicos nacionales.
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
+</div>
 
 
     <!-- smartdev_tab_contant_area -->
@@ -347,8 +440,8 @@
                                                         antes a las actividades diarias.</li>
                                                 </ul>
                                                 <!--<div class="service-btn btn2">
-                                       <a href="#">Read More<span class="ti-arrow-right"></span></a>
-                                      </div>-->
+                                           <a href="#">Read More<span class="ti-arrow-right"></span></a>
+                                          </div>-->
                                             </div>
                                         </div>
                                     </div>
@@ -392,7 +485,8 @@
                                             <div class="text_box all_icon_color">
                                                 <!--<i class="icofont-ambulance-crescent"></i>--->
                                                 <h3>💪<a>Protesis de hombro</a></h3><br>
-                                                <p style="text-align: justify;">La prótesis de hombro es una cirugía en la que se reemplaza la
+                                                <p style="text-align: justify;">La prótesis de hombro es una cirugía en la
+                                                    que se reemplaza la
                                                     articulación
                                                     dañada por un implante artificial para aliviar el dolor y recuperar el
                                                     movimiento
@@ -426,7 +520,7 @@
                                                 <!--<i class="icofont-heart-beat"></i>--->
                                                 <h3>💪 <a>Artroscopia de hombro</a></h3><br>
                                                 <p style="text-align: justify;">
-                                                   
+
 
                                                     La artroscopia de hombro es un procedimiento mínimamente invasivo que
                                                     utiliza
@@ -519,10 +613,10 @@
                                                     <div class="witr_btn_style mr">
                                                         <div class="witr_btn_sinner">
                                                             <!--<a href="index-2.html#" class="witr_btn">Leer mas
-                                                                                    <div class="pluse_btn_icon">
-                                                                                        <span class="fas fa-arrow-right"></span>
-                                                                                    </div>
-                                                                                </a>-->
+                                                                                        <div class="pluse_btn_icon">
+                                                                                            <span class="fas fa-arrow-right"></span>
+                                                                                        </div>
+                                                                                    </a>-->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -533,12 +627,12 @@
                                                 <div class="witr_videobg_image">
                                                     <img src="assets/images/hospital_ortopedia.png" alt="">
                                                     <!--<div class="play-overlay ">
-                                                                                        <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                                                            data-vbtype="youtube" data-autoplay="true"
-                                                                                            href="#">
-                                                                                            <i class="fas fa-play"></i>
-                                                                                        </a>
-                                                                                    </div>-->
+                                                                                            <a class="video-popup video-vemo-icon venobox vbox-item"
+                                                                                                data-vbtype="youtube" data-autoplay="true"
+                                                                                                href="#">
+                                                                                                <i class="fas fa-play"></i>
+                                                                                            </a>
+                                                                                        </div>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -552,12 +646,12 @@
                                                 <div class="witr_videobg_image">
                                                     <img src="assets/images/hospital_ortopedia.png" alt="">
                                                     <!--<div class="play-overlay ">
-                                                                                        <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                                                            data-vbtype="youtube" data-autoplay="true"
-                                                                                            href="#">
-                                                                                            <i class="fas fa-play"></i>
-                                                                                        </a>
-                                                                                    </div>-->
+                                                                                            <a class="video-popup video-vemo-icon venobox vbox-item"
+                                                                                                data-vbtype="youtube" data-autoplay="true"
+                                                                                                href="#">
+                                                                                                <i class="fas fa-play"></i>
+                                                                                            </a>
+                                                                                        </div>-->
                                                 </div>
                                             </div>
                                         </div>

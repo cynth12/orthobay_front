@@ -4,55 +4,68 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
 
-
+/*
+|--------------------------------------------------------------------------
+| Redirección principal
+|--------------------------------------------------------------------------
+*/
 
 Route::redirect('/', '/en');
 
 
-    Route::group(['prefix' => 'en'], function () {  
-    Route::get('/', [HomeController::class, 'index'])->name('en.home');
+/*
+|--------------------------------------------------------------------------
+| Sitemap
+|--------------------------------------------------------------------------
+*/
 
-        Route::get('hip', function () {
-    return view('en.hip.index');
-});
-    Route::get('knee', function () {
-    return view('en.knee.index');
-});
-    Route::get('shoulder', function () {
-    return view('en.shoulder.index');
-});
-    Route::get('back', function () {
-    return view('en.back.index');
-});
+Route::get('/sitemap.xml', function () {
 
-    Route::get('about', function () {
-    return view('en.about.index');
-});
-});
+    $xml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 
+    $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
 
+    $xml .= '    <url>' . "\n";
+    $xml .= '        <loc>https://orthobayvallarta.com/es</loc>' . "\n";
+    $xml .= '        <changefreq>weekly</changefreq>' . "\n";
+    $xml .= '        <priority>1.0</priority>' . "\n";
+    $xml .= '    </url>' . "\n";
 
-    Route::group(['prefix' => 'es'], function () {
-    Route::get('/', [HomeController::class, 'index'])->name('es.inicio');
+    $xml .= '    <url>' . "\n";
+    $xml .= '        <loc>https://orthobayvallarta.com/en</loc>' . "\n";
+    $xml .= '        <changefreq>weekly</changefreq>' . "\n";
+    $xml .= '        <priority>1.0</priority>' . "\n";
+    $xml .= '    </url>' . "\n";
 
-    Route::get('cadera', function () {
-    return view('es.cadera.index');
-});
-    Route::get('rodilla', function () {
-    return view('es.rodilla.index');
-});
-    Route::get('hombro', function () {
-    return view('es.hombro.index');
-});
-    Route::get('espalda', function () {
-    return view('es.espalda.index');
+    $xml .= '</urlset>';
+
+    return response($xml, 200)
+        ->header('Content-Type', 'application/xml');
 });
 
-    Route::get('nosotros', function () {
-    return view('es.nosotros.index');
-});
-    
+/*
+|--------------------------------------------------------------------------
+| Inglés
+|--------------------------------------------------------------------------
+*/
+
+Route::prefix('en')->group(function () {
+
+    Route::get('/', [HomeController::class, 'index'])
+        ->name('en.home');
+
 });
 
 
-    
+/*
+|--------------------------------------------------------------------------
+| Español
+|--------------------------------------------------------------------------
+*/
+
+Route::prefix('es')->group(function () {
+
+    Route::get('/', [HomeController::class, 'index'])
+        ->name('es.inicio');
+
+});
