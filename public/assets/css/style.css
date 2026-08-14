@@ -5232,6 +5232,70 @@ select:-webkit-autofill:active{
     }
 
 }
+
+/* =========================================================
+   SERVICIOS - PROPORCIONES ES / EN
+========================================================= */
+
+/* Título principal de servicios */
+#servicios .witr_section_title_inner h3,
+#services .witr_section_title_inner h3 {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 0.95;
+}
+
+/* Inglés: ligeramente más pequeño porque el texto es más largo */
+html[lang="en-US"] #services .witr_section_title_inner h3 {
+    font-size: 42px;
+    max-width: 820px;
+}
+
+
+/* Botones de servicios con la misma proporción */
+#servicios .witr_adv_tab_menu .nav-link,
+#services .witr_adv_tab_menu .nav-link {
+    width: 320px;
+    min-height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    #servicios .witr_section_title_inner h3,
+    #services .witr_section_title_inner h3 {
+        max-width: 95%;
+        line-height: 0.92;
+    }
+
+    /* Español */
+    html[lang="es-MX"] #servicios .witr_section_title_inner h3 {
+        font-size: 40px;
+    }
+
+    /* Inglés */
+    html[lang="en-US"] #services .witr_section_title_inner h3 {
+        font-size: 37px;
+        max-width: 95%;
+    }
+
+    #servicios .witr_adv_tab_menu .nav-link,
+    #services .witr_adv_tab_menu .nav-link {
+        width: 320px;
+        max-width: 90vw;
+        min-height: 67px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
   
 
 /* =====================================================

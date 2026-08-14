@@ -325,346 +325,809 @@
 </div>
 
 
-    <!-- smartdev_tab_contant_area -->
-    <div class="smartdev_tab_contant_area" id="tab">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="witr_section_title">
-                        <div class="witr_section_title_inner text-center">
-                            <h2>Servicios Ortopédicos Integrales</h2>
-                            <div class="witr_image_title">
-                                <img src="assets/images/title-icon-1.png" alt="">
-                            </div>
-                            <h3>Puerto Vallarta México</h3>
-                            <h1></h1>
+{{-- =========================================================
+    SERVICIOS ORTOPÉDICOS
+========================================================== --}}
+
+<div class="smartdev_tab_contant_area" id="servicios">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+
+                <div class="witr_section_title">
+
+                    <div class="witr_section_title_inner text-center">
+
+                        <h2>
+                            Servicios Ortopédicos
+                        </h2>
+
+                        <div class="witr_image_title">
+
+                            <img
+                                src="{{ asset('assets/images/title-icon-1.png') }}"
+                                alt="Servicios de ortopedia y traumatología en Orthobay Vallarta"
+                            >
+
                         </div>
+
+                        <h3>
+                            Cirugía de rodilla, cadera y hombro en Puerto Vallarta y Nuevo Nayarit
+                        </h3>
+
                     </div>
+
                 </div>
-                <div class="col-lg-12 tab_top">
-                    <div class="witr_adv_tab_area witr_taba_style1 tab_all_colora">
-                        <div class="witr_adv_tab_menu">
-                            <ul class="nav nav-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link epo-4931cc5 active" data-toggle="tab"
-                                        href="index-2.html#tx_tab_01">
-                                        <span class="witr_tab_icona">
-                                            <i class="icofont-bone"></i>
-                                        </span>
-                                        <strong>Cirugia de Rodilla</strong>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link epo-1b77303" data-toggle="tab" href="index-2.html#tx_tab_02">
-                                        <span class="witr_tab_icona">
-                                            <i class="icofont-user-alt-3"></i>
-                                        </span>
-                                        <strong>Cirugia de hombro</strong>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link epo-7b0660d" data-toggle="tab" href="index-2.html#tx_tab_03">
-                                        <span class="witr_tab_icona">
-                                            <i class="icofont-bone"></i>
-                                        </span>
-                                        <strong>Cirugia de cadera</strong>
-                                    </a>
-                                </li>
-                            </ul>
+
+            </div>
+
+
+
+            <div class="col-lg-12 tab_top">
+
+                <div class="witr_adv_tab_area witr_taba_style1 tab_all_colora">
+
+
+                    {{-- =====================================================
+                        NAVEGACIÓN DE SERVICIOS
+                    ====================================================== --}}
+
+                    <div class="witr_adv_tab_menu">
+
+                        <ul class="nav nav-tabs">
+
+                            <li class="nav-item">
+
+                                <a
+                                    class="nav-link epo-4931cc5 active"
+                                    href="{{ url('/es') }}#rodilla"
+                                >
+
+                                    <span class="witr_tab_icona">
+                                        <i class="icofont-bone"></i>
+                                    </span>
+
+                                    <strong>
+                                        Cirugía de rodilla
+                                    </strong>
+
+                                </a>
+
+                            </li>
+
+
+                            <li class="nav-item">
+
+                                <a
+                                    class="nav-link epo-7b0660d"
+                                    href="{{ url('/es') }}#cadera"
+                                >
+
+                                    <span class="witr_tab_icona">
+                                        <i class="icofont-bone"></i>
+                                    </span>
+
+                                    <strong>
+                                        Cirugía de cadera
+                                    </strong>
+
+                                </a>
+
+                            </li>
+
+
+                            <li class="nav-item">
+
+                                <a
+                                    class="nav-link epo-1b77303"
+                                    href="{{ url('/es') }}#hombro"
+                                >
+
+                                    <span class="witr_tab_icona">
+                                        <i class="icofont-user-alt-3"></i>
+                                    </span>
+
+                                    <strong>
+                                        Cirugía de hombro
+                                    </strong>
+
+                                </a>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+
+                    {{-- =====================================================
+                        PROCEDIMIENTOS
+                    ====================================================== --}}
+
+                    <div class="smartdev_serivce_bg_area serivce_bg">
+
+                        <div class="container">
+
+                            <div class="row service_top">
+
+
+                                {{-- =================================================
+                                    PRÓTESIS DE RODILLA
+                                ================================================== --}}
+
+                                <div
+                                    id="rodilla"
+                                    class="col-lg-4 col-md-6 col-sm-12"
+                                >
+
+                                    <div class="service-item all_color_service text-left">
+
+                                        <div class="service_top_image">
+
+                                            <img
+                                                src="{{ asset('assets/images/protesis_rodilla.png') }}"
+                                                alt="Cirugía de prótesis de rodilla en Puerto Vallarta con el Dr. Daniel Ponce"
+                                            >
+
+                                        </div>
+
+
+                                        <div class="text_box all_icon_color">
+
+                                            <h3>
+                                                Prótesis de rodilla
+                                            </h3>
+
+
+                                            <p>
+                                                La prótesis de rodilla es una
+                                                cirugía en la que se reemplaza
+                                                la parte desgastada de la
+                                                articulación por un implante
+                                                diseñado para recuperar el
+                                                movimiento y disminuir el dolor.
+                                            </p>
+
+                                            <p>
+                                                Puede recomendarse cuando el
+                                                desgaste de la articulación,
+                                                la artrosis u otras lesiones
+                                                afectan significativamente la
+                                                movilidad y la calidad de vida.
+                                            </p>
+
+
+                                            <h4>
+                                                Beneficios
+                                            </h4>
+
+                                            <ul>
+
+                                                <li>
+                                                    Ayuda a disminuir el dolor.
+                                                </li>
+
+                                                <li>
+                                                    Mejora la movilidad de la rodilla.
+                                                </li>
+
+                                                <li>
+                                                    Permite caminar con mayor
+                                                    estabilidad y seguridad.
+                                                </li>
+
+                                                <li>
+                                                    Facilita el regreso a las
+                                                    actividades de la vida diaria.
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                {{-- =================================================
+                                    ARTROSCOPIA DE RODILLA
+                                ================================================== --}}
+
+                                <div
+                                    id="artroscopia-rodilla"
+                                    class="col-lg-4 col-md-6 col-sm-12"
+                                >
+
+                                    <div class="service-item all_color_service text-left">
+
+                                        <div class="service_top_image">
+
+                                            <img
+                                                src="{{ asset('assets/images/artroscopia_rodilla.png') }}"
+                                                alt="Artroscopia de rodilla en Puerto Vallarta con el Dr. Daniel Ponce"
+                                            >
+
+                                        </div>
+
+
+                                        <div class="text_box all_icon_color">
+
+                                            <h3>
+                                                Artroscopia de rodilla
+                                            </h3>
+
+
+                                            <p>
+                                                La artroscopia de rodilla es un
+                                                procedimiento mínimamente invasivo
+                                                que utiliza una pequeña cámara e
+                                                instrumentos especializados para
+                                                diagnosticar y tratar lesiones
+                                                dentro de la articulación.
+                                            </p>
+
+                                            <p>
+                                                Puede utilizarse para tratar
+                                                problemas de meniscos, ligamentos,
+                                                cartílago y otras estructuras de
+                                                la rodilla.
+                                            </p>
+
+
+                                            <h4>
+                                                Beneficios
+                                            </h4>
+
+                                            <ul>
+
+                                                <li>
+                                                    Incisiones pequeñas y
+                                                    cicatrices discretas.
+                                                </li>
+
+                                                <li>
+                                                    Menor agresión de los tejidos
+                                                    durante el procedimiento.
+                                                </li>
+
+                                                <li>
+                                                    Recuperación generalmente más
+                                                    rápida que con procedimientos
+                                                    abiertos tradicionales.
+                                                </li>
+
+                                                <li>
+                                                    Facilita el regreso progresivo
+                                                    a las actividades cotidianas.
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                {{-- =================================================
+                                    PRÓTESIS DE CADERA
+                                ================================================== --}}
+
+                                <div
+                                    id="cadera"
+                                    class="col-lg-4 col-md-6 col-sm-12"
+                                >
+
+                                    <div class="service-item all_color_service text-left">
+
+                                        <div class="service_top_image">
+
+                                            <img
+                                                src="{{ asset('assets/images/protesis_cadera.png') }}"
+                                                alt="Cirugía de prótesis de cadera en Puerto Vallarta con el Dr. Daniel Ponce"
+                                            >
+
+                                        </div>
+
+
+                                        <div class="text_box all_icon_color">
+
+                                            <h3>
+                                                Prótesis de cadera
+                                            </h3>
+
+
+                                            <p>
+                                                La prótesis de cadera es una
+                                                cirugía en la que se reemplaza
+                                                la articulación dañada por un
+                                                implante artificial diseñado
+                                                para reducir el dolor y recuperar
+                                                el movimiento.
+                                            </p>
+
+                                            <p>
+                                                Puede recomendarse cuando el
+                                                desgaste, la artrosis, una
+                                                fractura u otra lesión afectan
+                                                considerablemente la movilidad
+                                                y la calidad de vida.
+                                            </p>
+
+
+                                            <h4>
+                                                Beneficios
+                                            </h4>
+
+                                            <ul>
+
+                                                <li>
+                                                    Ayuda a disminuir o eliminar
+                                                    el dolor de la cadera.
+                                                </li>
+
+                                                <li>
+                                                    Mejora la movilidad y la
+                                                    estabilidad al caminar.
+                                                </li>
+
+                                                <li>
+                                                    Facilita la realización de
+                                                    actividades cotidianas.
+                                                </li>
+
+                                                <li>
+                                                    Puede mejorar la independencia
+                                                    y calidad de vida del paciente.
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                {{-- =================================================
+                                    PRÓTESIS DE HOMBRO
+                                ================================================== --}}
+
+                                <div
+                                    id="hombro"
+                                    class="col-lg-4 col-md-6 col-sm-12"
+                                >
+
+                                    <div class="service-item all_color_service text-left">
+
+                                        <div class="service_top_image">
+
+                                            <img
+                                                src="{{ asset('assets/images/protesis_hombro.png') }}"
+                                                alt="Cirugía de prótesis de hombro en Puerto Vallarta con el Dr. Daniel Ponce"
+                                            >
+
+                                        </div>
+
+
+                                        <div class="text_box all_icon_color">
+
+                                            <h3>
+                                                Prótesis de hombro
+                                            </h3>
+
+
+                                            <p>
+                                                La prótesis de hombro es una
+                                                cirugía en la que se reemplaza
+                                                total o parcialmente la
+                                                articulación dañada por un
+                                                implante artificial.
+                                            </p>
+
+                                            <p>
+                                                Puede recomendarse ante desgaste
+                                                severo, artrosis, fracturas u
+                                                otras lesiones que producen dolor
+                                                y limitan el movimiento del brazo.
+                                            </p>
+
+
+                                            <h4>
+                                                Beneficios
+                                            </h4>
+
+                                            <ul>
+
+                                                <li>
+                                                    Ayuda a disminuir el dolor
+                                                    del hombro.
+                                                </li>
+
+                                                <li>
+                                                    Favorece la recuperación de
+                                                    la movilidad y función del brazo.
+                                                </li>
+
+                                                <li>
+                                                    Facilita actividades
+                                                    cotidianas.
+                                                </li>
+
+                                                <li>
+                                                    Puede mejorar la independencia
+                                                    y calidad de vida.
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                {{-- =================================================
+                                    ARTROSCOPIA DE HOMBRO
+                                ================================================== --}}
+
+                                <div
+                                    id="artroscopia-hombro"
+                                    class="col-lg-4 col-md-6 col-sm-12"
+                                >
+
+                                    <div class="service-item all_color_service text-left">
+
+                                        <div class="service_top_image">
+
+                                            <img
+                                                src="{{ asset('assets/images/artroscopia_hombro.png') }}"
+                                                alt="Artroscopia de hombro en Puerto Vallarta con el Dr. Daniel Ponce"
+                                            >
+
+                                        </div>
+
+
+                                        <div class="text_box all_icon_color">
+
+                                            <h3>
+                                                Artroscopia de hombro
+                                            </h3>
+
+
+                                            <p>
+                                                La artroscopia de hombro es un
+                                                procedimiento mínimamente invasivo
+                                                que utiliza una pequeña cámara e
+                                                instrumentos especializados para
+                                                diagnosticar y tratar lesiones
+                                                dentro de la articulación.
+                                            </p>
+
+                                            <p>
+                                                Puede utilizarse en lesiones del
+                                                manguito rotador, labrum, tendones,
+                                                ligamentos y otros problemas que
+                                                afectan la función del hombro.
+                                            </p>
+
+
+                                            <h4>
+                                                Beneficios
+                                            </h4>
+
+                                            <ul>
+
+                                                <li>
+                                                    Incisiones pequeñas y
+                                                    cicatrices discretas.
+                                                </li>
+
+                                                <li>
+                                                    Menor agresión a los tejidos.
+                                                </li>
+
+                                                <li>
+                                                    Recuperación progresiva de
+                                                    la movilidad y función.
+                                                </li>
+
+                                                <li>
+                                                    Facilita el regreso a las
+                                                    actividades cotidianas y
+                                                    deportivas según cada caso.
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
                         </div>
 
-                        <!-- smartdev_serivce_bg_area -->
-                        <div id="rodilla" class="smartdev_serivce_bg_area serivce_bg">
-                            <div class="container">
-                                <div class="row service_top">
-                                    <!-- smartdev_serivce_bg_01 -->
-                                    <div class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="service-item all_color_service  text-left  ">
-                                            <div class="service_top_image">
-                                                <img src="assets/images/protesis_rodilla.png" alt="">
-                                            </div>
-                                            <div class="text_box all_icon_color">
-
-                                                <h3>🦵<a>Protesis de rodilla</a></h3>
-                                                <p>
-                                                <p style="text-align: justify;">
-                                                    <br>
-
-                                                    La prótesis de rodilla es una cirugía en la que se reemplaza la parte
-                                                    desgastada de la articulación por un implante diseñado para devolver el
-                                                    movimiento y disminuir el dolor. Se recomienda cuando el desgaste o la
-                                                    artritis impiden caminar con normalidad.
-                                                </p>
-
-                                                <h5>Beneficios</h5>
-
-                                                <ul>
-                                                    <li>Alivia el dolor.</li>
-                                                    <li>Mejora la movilidad.</li>
-                                                    <li>Permite volver a caminar con mayor seguridad.</li>
-                                                    <li>Ayuda a retomar las actividades de la vida diaria.</li>
-                                                </ul>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- smartdev_serivce_bg_02 -->
-                                    <div class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="service-item all_color_service  text-left  ">
-                                            <div class="service_top_image">
-                                                <img src="assets/images/artroscopia_rodilla.png" alt="">
-                                            </div>
-                                            <div class="text_box all_icon_color">
-                                                <h3>🔍 <a>Artroscopia de rodilla</a></h3>
-                                                <p style="text-align: justify;">
-                                                    <br>
-
-                                                    La artroscopia de rodilla es un procedimiento mínimamente invasivo que
-                                                    utiliza una pequeña cámara e instrumentos especiales para diagnosticar y
-                                                    tratar
-                                                    lesiones dentro de la articulación, como daños en los meniscos,
-                                                    ligamentos o
-                                                    cartílago.
-                                                </p>
-
-                                                <h5>Beneficios</h5>
-
-                                                <ul class="list-unstyled">
-                                                    <li> Incisiones
-                                                        pequeñas y cicatrices discretas.</li>
-                                                    <li>Menor dolor
-                                                        después del procedimiento.</li>
-                                                    <li> Recuperación más
-                                                        rápida que una cirugía tradicional.</li>
-                                                    <li>Permite regresar
-                                                        antes a las actividades diarias.</li>
-                                                </ul>
-                                                <!--<div class="service-btn btn2">
-                                           <a href="#">Read More<span class="ti-arrow-right"></span></a>
-                                          </div>-->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- smartdev_serivce_bg_03 -->
-                                    <div id="cadera" class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="service-item all_color_service  text-left  ">
-                                            <div class="service_top_image">
-                                                <img src="assets/images/protesis_cadera.png" alt="">
-                                            </div>
-                                            <div class="text_box all_icon_color">
-
-                                                <h3>🦴 </a>Protesis de cadera</h3>
-                                                <p style="text-align: justify;"><br>
-                                                    La prótesis de cadera es una cirugía en la que se reemplaza la
-                                                    articulación dañada por un implante artificial diseñado para eliminar el
-                                                    dolor y
-                                                    recuperar el movimiento. Se recomienda cuando el desgaste, la artritis o
-                                                    una
-                                                    lesión afectan la calidad de vida</p>
-                                                <h5>Beneficios</h5>
-
-                                                <ul class="list-unstyled">
-                                                    <li> Disminuye o
-                                                        elimina el dolor de la cadera.</li>
-                                                    <li> Mejora la
-                                                        movilidad y la estabilidad al caminar.</li>
-                                                    <li> Permite retomar
-                                                        las actividades diarias con mayor comodidad.</li>
-                                                    <li> Mejora la
-                                                        calidad de vida y la independencia del paciente.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- smartdev_serivce_bg_04 -->
-                                    <div id="hombro" class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="service-item all_color_service  text-left  ">
-                                            <div class="service_top_image">
-                                                <img src="assets/images/protesis_hombro.png" alt="">
-                                            </div>
-                                            <div class="text_box all_icon_color">
-                                                <!--<i class="icofont-ambulance-crescent"></i>--->
-                                                <h3>💪<a>Protesis de hombro</a></h3><br>
-                                                <p style="text-align: justify;">La prótesis de hombro es una cirugía en la
-                                                    que se reemplaza la
-                                                    articulación
-                                                    dañada por un implante artificial para aliviar el dolor y recuperar el
-                                                    movimiento
-                                                    del brazo. Se recomienda cuando existe un desgaste severo, artritis o
-                                                    fracturas
-                                                    que limitan las actividades diarias y afectan la calidad de vida.</p>
-
-                                                <h5>Beneficios</h5>
-
-                                                <ul class="list-unstyled">
-                                                    <li> Reduce o elimina
-                                                        el dolor del hombro.</li>
-                                                    <li> Recupera la
-                                                        movilidad y la función del brazo.</li>
-                                                    <li> Facilita
-                                                        realizar actividades cotidianas con mayor comodidad.</li>
-                                                    <li> Mejora la
-                                                        calidad de vida y la independencia del paciente.</li>
-                                                </ul>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- smartdev_serivce_bg_05 -->
-                                    <div id="hombro" class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="service-item all_color_service  text-left  ">
-                                            <div class="service_top_image">
-                                                <img src="assets/images/artroscopia_hombro.png" alt="">
-                                            </div>
-                                            <div class="text_box all_icon_color">
-                                                <!--<i class="icofont-heart-beat"></i>--->
-                                                <h3>💪 <a>Artroscopia de hombro</a></h3><br>
-                                                <p style="text-align: justify;">
-
-
-                                                    La artroscopia de hombro es un procedimiento mínimamente invasivo que
-                                                    utiliza
-                                                    una pequeña cámara e instrumentos especializados para diagnosticar y
-                                                    reparar
-                                                    lesiones dentro de la articulación, como desgarros del manguito rotador,
-                                                    lesiones del labrum, tendinitis o problemas de los ligamentos.
-                                                </p>
-
-                                                <h5>Beneficios</h5>
-
-                                                <ul>
-                                                    <li>Incisiones pequeñas y cicatrices discretas.</li>
-                                                    <li>Menor dolor después del procedimiento.</li>
-                                                    <li>Recuperación más rápida que una cirugía convencional.</li>
-                                                    <li>Permite recuperar la movilidad y la función del hombro.</li>
-                                                    <li>Facilita el regreso a las actividades diarias y deportivas.</li>
-                                                </ul>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- smartdev_serivce_bg_06 -->
-                                </div>
-                            </div>
+                    </div>
                         </div>
 
                         <!-- Tab panes -->
-                        <div class="witr_adv_tab_content">
-                            <div class="tab-content">
-                                <div class="tab-pane fade epo-4931cc5 active show" id="tx_tab_01">
-                                    <div class="row tab_pane_bg">
-                                        <div class="col-lg-6 col-md-12 col-sm-12">
-                                            <div class="witr_tab_right">
-                                                <div class="witr_section_title">
-                                                    <div class="witr_section_title_inner text-left">
-                                                        <h2>¿Por qué viajar para ver al Dr. Daniel?</h2>
-                                                        <p>Viajar a México para una cirugía ortopédica puede ser
-                                                            una opción rentable, ofreciendo servicios médicos de alta
-                                                            calidad a
-                                                            una fracción del precio encontrado en EE. UU.
-                                                            y con tiempos de espera más cortos que en Canadá.</p>
-                                                    </div>
-                                                    <div class="witr_section_title_inner text-left">
-                                                        <h2>Puerto Vallarta</h2>
-                                                        <p>Puerto Vallarta, ubicado en la costa del Pacífico
-                                                            de México, es conocido por sus impresionantes playas,
-                                                            vibrante vida nocturna y rica historia cultural.
-                                                            Este pintoresco destino ofrece una mezcla perfecta
-                                                            de relajación y aventura, con actividades que van
-                                                            desde la observación de ballenas hasta explorar
-                                                            calles adoquinadas y galerías de arte locales.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="em-service2 sleft all_color_service border_top">
-                                                    <div class="em_service_content ">
-                                                        <div class="em_single_service_text width_height_link_0 ">
-                                                            <div class="service_top_image"></div>
-                                                            <div class="text_box witr_s_flex">
-                                                                <div class="service_top_text all_icon_color">
-                                                                    <div class="em-service-icon">
-                                                                        <i class="icofont-rounded-double-right"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="em-service-inner">
-                                                                    <div class="em-service-title">
-                                                                        <div class="witr_section_title_inner text-left">
-                                                                            <h2>Beneficios</h2><br>
-                                                                            <ul class="menu">
-                                                                                <li></i>Instalaciones de Última Generación
-                                                                                </li>
-                                                                                <li></i>Personal Bilingüe</li>
-                                                                                <li></i>Tratamiento en Solo Unas Semanas
-                                                                                </li>
-                                                                                <li></i>Una Fracción del Costo en EE. UU.
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab_title">
-                                                    <h2>La cirugía con el Dr. Daniel puede ser hasta un 70% más barata que
-                                                        realizar la misma cirugía en los Estados Unidos.</h2>
-                                                </div>
-                                                <div class="witr_button_area">
-                                                    <div class="witr_btn_style mr">
-                                                        <div class="witr_btn_sinner">
-                                                            <!--<a href="index-2.html#" class="witr_btn">Leer mas
-                                                                                        <div class="pluse_btn_icon">
-                                                                                            <span class="fas fa-arrow-right"></span>
-                                                                                        </div>
-                                                                                    </a>-->
-                                                        </div>
-                                                    </div>
-                                                </div>
+                        {{-- =========================================================
+    TURISMO MÉDICO / POR QUÉ ELEGIR ORTHOBAY
+========================================================== --}}
+
+<div class="witr_adv_tab_content">
+
+    <div class="tab-content">
+
+        <div class="tab-pane fade active show">
+
+            <div class="row tab_pane_bg">
+
+
+                {{-- =====================================================
+                    INFORMACIÓN
+                ====================================================== --}}
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+
+                    <div class="witr_tab_right">
+
+                        <div class="witr_section_title">
+
+
+                            {{-- POR QUÉ VIAJAR --}}
+                            <div class="witr_section_title_inner text-left">
+
+                                <h2>
+                                    ¿Por qué viajar a Puerto Vallarta para una cirugía ortopédica?
+                                </h2>
+
+                                <p>
+                                    Puerto Vallarta y Nuevo Nayarit se han
+                                    convertido en destinos atractivos para
+                                    pacientes que buscan atención médica
+                                    especializada mientras disfrutan de una
+                                    ubicación accesible y bien conectada con
+                                    Estados Unidos y Canadá.
+                                </p>
+
+                                <p>
+                                    El Dr. Daniel Ponce Covarrubias brinda
+                                    atención ortopédica a pacientes locales e
+                                    internacionales, ofreciendo valoración
+                                    personalizada, cirugía ortopédica
+                                    especializada y seguimiento durante el
+                                    proceso de recuperación.
+                                </p>
+
+                            </div>
+
+
+
+                            {{-- PUERTO VALLARTA --}}
+                            <div class="witr_section_title_inner text-left">
+
+                                <h2>
+                                    Atención ortopédica en Puerto Vallarta y Nuevo Nayarit
+                                </h2>
+
+                                <p>
+                                    Orthobay Vallarta ofrece atención para
+                                    cirugía de rodilla, cadera y hombro,
+                                    incluyendo reemplazo articular y
+                                    procedimientos artroscópicos.
+                                </p>
+
+                                <p>
+                                    El consultorio principal se encuentra en
+                                    Núcleo Médico Joya, en Nuevo Nayarit,
+                                    dentro de una zona hospitalaria cercana
+                                    a Puerto Vallarta y al Aeropuerto
+                                    Internacional de Puerto Vallarta.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        {{-- =================================================
+                            BENEFICIOS
+                        ================================================== --}}
+
+                        <div class="em-service2 sleft all_color_service border_top">
+
+                            <div class="em_service_content">
+
+                                <div class="em_single_service_text width_height_link_0">
+
+                                    <div class="service_top_image"></div>
+
+
+                                    <div class="text_box witr_s_flex">
+
+                                        <div class="service_top_text all_icon_color">
+
+                                            <div class="em-service-icon">
+                                                <i class="icofont-rounded-double-right"></i>
                                             </div>
+
                                         </div>
-                                        <div class="col-lg-6 col-md-12 col-sm-12">
-                                            <div class="witr_play_vi witr_all_color_v">
-                                                <div class="witr_videobg_image">
-                                                    <img src="assets/images/hospital_ortopedia.png" alt="">
-                                                    <!--<div class="play-overlay ">
-                                                                                            <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                                                                data-vbtype="youtube" data-autoplay="true"
-                                                                                                href="#">
-                                                                                                <i class="fas fa-play"></i>
-                                                                                            </a>
-                                                                                        </div>-->
+
+
+                                        <div class="em-service-inner">
+
+                                            <div class="em-service-title">
+
+                                                <div class="witr_section_title_inner text-left">
+
+                                                    <h3>
+                                                        Ventajas para pacientes internacionales
+                                                    </h3>
+
+                                                    <ul class="menu">
+
+                                                        <li>
+                                                            Atención personalizada
+                                                            con un cirujano
+                                                            ortopedista certificado.
+                                                        </li>
+
+                                                        <li>
+                                                            Personal con atención
+                                                            para pacientes
+                                                            internacionales.
+                                                        </li>
+
+                                                        <li>
+                                                            Instalaciones
+                                                            hospitalarias
+                                                            especializadas.
+                                                        </li>
+
+                                                        <li>
+                                                            Opciones de cirugía
+                                                            de rodilla, cadera
+                                                            y hombro.
+                                                        </li>
+
+                                                        <li>
+                                                            Valoración y plan de
+                                                            tratamiento
+                                                            individualizado.
+                                                        </li>
+
+                                                        <li>
+                                                            Comunicación por
+                                                            WhatsApp antes y
+                                                            durante su estancia.
+                                                        </li>
+
+                                                    </ul>
+
                                                 </div>
+
                                             </div>
+
                                         </div>
+
                                     </div>
+
                                 </div>
 
-                                <div class="tab-pane fade epo-1b77303" id="tx_tab_02">
-                                    <div class="row tab_pane_bg">
-                                        <div class="col-lg-6 col-md-12 col-sm-12">
-                                            <div class="witr_play_vi witr_all_color_v">
-                                                <div class="witr_videobg_image">
-                                                    <img src="assets/images/hospital_ortopedia.png" alt="">
-                                                    <!--<div class="play-overlay ">
-                                                                                            <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                                                                data-vbtype="youtube" data-autoplay="true"
-                                                                                                href="#">
-                                                                                                <i class="fas fa-play"></i>
-                                                                                            </a>
-                                                                                        </div>-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
+
                         </div>
+
+
+
+                        {{-- =================================================
+                            COSTOS / COTIZACIÓN
+                        ================================================== --}}
+
+                        <div class="tab_title">
+
+                            <h3>
+                                Consulta opciones de tratamiento y costos para tu cirugía ortopédica
+                            </h3>
+
+                            <p>
+                                Cada procedimiento se cotiza de acuerdo con
+                                las necesidades del paciente, el tipo de
+                                cirugía y los servicios hospitalarios
+                                requeridos.
+                            </p>
+
+                        </div>
+
+
+
+                        {{-- =================================================
+                            CTA
+                        ================================================== --}}
+
+                        <div class="witr_button_area">
+
+                            <div class="witr_btn_style mr">
+
+                                <div class="witr_btn_sinner">
+
+                                    <a
+                                        href="{{ url('/es') }}#contacto"
+                                        class="witr_btn"
+                                    >
+                                        Solicitar información
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
                     </div>
+
+                </div>
+
+
+
+                {{-- =====================================================
+                    IMAGEN
+                ====================================================== --}}
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+
+                    <div class="witr_play_vi witr_all_color_v">
+
+                        <div class="witr_videobg_image">
+
+                            <img
+                                src="{{ asset('assets/images/hospital_ortopedia.png') }}"
+                                alt="Instalaciones para cirugía ortopédica en Puerto Vallarta y Nuevo Nayarit"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+{{-- =========================================================
+    CIERRE DE LA SECCIÓN DE SERVICIOS
+========================================================== --}}
+
                 </div>
             </div>
         </div>
     </div>
-
+</div>
     <!-- smartdev_video_area -->
     <div class="smartdev_video_area">
         <div class="container">
